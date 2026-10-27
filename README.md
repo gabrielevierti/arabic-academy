@@ -1,14 +1,15 @@
-# Arabic Academy
-
 **A free, open learning path for Arabic, with lessons, exercises, and progress tracking organised in one place.**
-
 Arabic Academy grew out of a personal need: I want to learn Arabic without paying for a course or losing my way across dozens of separate resources.
 
 The project is for anyone looking for a structured learning path and wanting to use Arabic in real life, including professional settings.
 
+<img width="1637" height="691" alt="1" src="https://github.com/user-attachments/assets/9dc11dd4-282d-436f-bc42-28d0b75a3b57" />
+
 ## Why I built it
 
-There are plenty of free resources for learning Arabic online. The challenge I faced was bringing them together: one website for the alphabet, a video for pronunciation, a PDF for grammar, and exercises somewhere else. Figuring out what to study first, what comes next, and what to review becomes a task of its own.
+There are plenty of free resources for learning Arabic online. 
+The challenge I faced was bringing them together: one website for the alphabet, a video for pronunciation, a PDF for grammar, and exercises somewhere else. 
+Figuring out what to study first, what comes next, and what to review becomes a task of its own.
 
 I couldn’t find a free resource that brought everything together the way I needed: an organised path, accessible explanations, exercises to practise with, and a simple way to track my progress.
 
