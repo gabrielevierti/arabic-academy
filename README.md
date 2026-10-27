@@ -37,7 +37,7 @@ You don’t need to share the professional or personal goals that led me to buil
 
 The materials currently included cover **A0–B2**. Sections for **C1 and C2** are prepared for future additions; they are not yet complete courses.
 
-The interface is available in **Italian and English**. Course explanations, exercise instructions, and solutions are currently in **Italian and Arabic**: selecting English does not translate all the learning materials.
+The interface and course materials are available in **Italian and English**, with the Arabic examples preserved. The English course is machine-translated, with structural checks and selected manual corrections; it has not received a comprehensive human linguistic review. See [TRANSLATIONS.md](TRANSLATIONS.md).
 
 **This project is not perfect, and it does not claim to be.** The content has not undergone a comprehensive linguistic review and may contain errors, unclear explanations, or activities that need improvement.
 
@@ -104,3 +104,18 @@ The build is generated in the `dist/` directory. The workflow in `.github/workfl
 The application code is distributed under the **MIT licence**: see [LICENSE](LICENSE).
 
 The code licence does not automatically grant the same rights to the learning materials. For information about the origin and distribution terms of the content, see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
+
+
+## Switching course language
+
+Use the **Italiano / English** buttons in the top bar. The selection applies to
+the course index, lesson explanations, exercise instructions, choices, model
+answers and correction notes. Arabic and transliteration are preserved. The
+choice is remembered on this device. Lesson/question IDs are shared, so switching
+language preserves your progress and submitted answers. Personal notes and
+custom content are not rewritten.
+
+English files are included with the website: no translation service, API key
+or paid subscription is needed. The English edition is machine-translated and
+open to documented corrections. Translation sources, limitations and contributor
+instructions are in [TRANSLATIONS.md](TRANSLATIONS.md).

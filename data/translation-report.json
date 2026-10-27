@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "method": "Local OPUS-MT Italian-English, protected Arabic/transliteration segments",
+  "files": 487,
+  "uniqueSourceStrings": 82906,
+  "translatedSegments": 97781,
+  "model": {
+    "repository": "Sams200/opus-mt-it-en",
+    "revision": "ddd82dd6b6754b9b32a7f60ede82057ef02c298c"
+  },
+  "review": "Automated structural checks and spot checks; not a full human linguistic review."
+}
