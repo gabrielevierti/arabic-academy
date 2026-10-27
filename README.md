@@ -1,15 +1,14 @@
+# Arabic Academy
+
 **A free, open learning path for Arabic, with lessons, exercises, and progress tracking organised in one place.**
+
 Arabic Academy grew out of a personal need: I want to learn Arabic without paying for a course or losing my way across dozens of separate resources.
 
 The project is for anyone looking for a structured learning path and wanting to use Arabic in real life, including professional settings.
 
-<img width="1637" height="691" alt="1" src="https://github.com/user-attachments/assets/9dc11dd4-282d-436f-bc42-28d0b75a3b57" />
-
 ## Why I built it
 
-There are plenty of free resources for learning Arabic online. 
-The challenge I faced was bringing them together: one website for the alphabet, a video for pronunciation, a PDF for grammar, and exercises somewhere else. 
-Figuring out what to study first, what comes next, and what to review becomes a task of its own.
+There are plenty of free resources for learning Arabic online. The challenge I faced was bringing them together: one website for the alphabet, a video for pronunciation, a PDF for grammar, and exercises somewhere else. Figuring out what to study first, what comes next, and what to review becomes a task of its own.
 
 I couldn’t find a free resource that brought everything together the way I needed: an organised path, accessible explanations, exercises to practise with, and a simple way to track my progress.
 
@@ -22,8 +21,11 @@ So I started building the tool I wished I had found. Arabic Academy is the resul
 - **A learning path organised by level**, so you know where to start and how to move forward.
 - **Lessons available directly on the website**, with explanations, examples, and tables.
 - **Interactive exercises**, with automatic checking for constrained answers and reference models for open-ended responses.
-- **Review activities and personal flashcards**, to revisit topics that need more practice.
-- **Customisable notes, lessons, and exercises**, to adapt your studies to your needs.
+- **Interactive alphabet**, with the 28 basic letters, joining forms, example words, device speech and a five-question quiz.
+- **Automatic mistake review and personal flashcards**, with scheduled follow-up practice.
+- **Guided study sessions**, combining review, a reading step and practice around a flexible 15-minute goal.
+- **Clear progress tracking**, including active study time, reading steps, answered questions, milestones and transparent estimates for the next level.
+- **Personal notes and lessons**, to adapt your studies to your needs.
 - **Progress saved in your browser**, with backup export and import.
 
 The course starts with the writing system and Modern Standard Arabic (MSA). Practical and professional use is the direction of the project: this does not mean every lesson is already specialised or that the course alone prepares you for a profession.
@@ -120,3 +122,32 @@ English files are included with the website: no translation service, API key
 or paid subscription is needed. The English edition is machine-translated and
 open to documented corrections. Translation sources, limitations and contributor
 instructions are in [TRANSLATIONS.md](TRANSLATIONS.md).
+
+## Daily study and progress
+
+The dashboard focuses on today’s study, rather than repeating the learning path.
+Exercises opens course practice directly. Previously saved personal exercises
+remain accessible; creating custom quizzes is no longer the primary flow.
+The Library is for reference material, assessments, handwriting and solutions.
+
+Mistakes are available immediately. Successful reviews return after 1, 3, 7,
+14 and then 30 days; another mistake resets the interval. Open responses still
+require self-assessment. This schedule is a simple practice aid, not a validated
+measurement of mastery.
+
+Active time is counted in lessons, the alphabet and guided sessions, only while
+the tab is visible and there has been interaction in the last minute. A session
+can be paused or ended early. Sessions are short blocks: continue with another
+block if you want to reach the 15-minute target. Earlier study time is not
+reconstructed. Answers and reading progress persist when leaving a session;
+the unfinished session’s plan and timer do not resume after a reload.
+
+Remaining-hour ranges come from the original core lesson plans. Half of the
+estimate decreases with reading steps and half with correct or self-confirmed
+answers. Marking a lesson complete clears its remaining estimate. Supplementary
+tracks are excluded. These are planning estimates, not proficiency predictions
+or certificates. C1 and C2 remain unavailable until their content is added.
+
+Existing local records and older backups are supported. New backups also include
+alphabet familiarity, mistake schedules, active time and session summaries.
+Keep the same Pages address to retain access to the existing browser database.
