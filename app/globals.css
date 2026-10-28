@@ -3759,3 +3759,47 @@ html[data-theme=dark] .course-resume{color:#ecf4ed}
 .native-article .native-prose p:not(.arabic-paragraph){font-size:var(--reading-size,16px);line-height:var(--reading-leading,1.8)}
 html[data-theme=dark] :is(.arabic-paragraph,.question-card,.question-context,.native-article-actions,.native-table-wrap,.alphabet-card,.letter-card,.stat-card,.progress-card){background:#1c2b30;color:#e6eeea;border-color:#3b4e48}
 html[data-theme=dark] footer span{color:#b1c0b9}
+/* Shared dark surfaces: controls, learning states and supporting text. */
+html[data-theme=dark]{--surface:#1c2b30;--surface-raised:#263b3f;--text-secondary:#bacbc3;--focus:#c1e9a6}
+html[data-theme=dark] :is(.alphabet-grid>button,.alphabet-choices>button,.letter-forms,.lesson-number,.lesson-icon,.review-origins span,.session-toolbar,.session-steps>span,.next-level,.accuracy-note,.milestones>div>span,.practice-bar,.question-nav,.question-footer,.order-answer,.word-bank,.answer-model,.solution,.note,.callout,.level-card,.practice-card,.activity-grid>div){background:var(--surface-raised);color:#e6eeea;border-color:#61776d}
+html[data-theme=dark] :is(small,.alphabet-legend,.letter-example>span,.remaining-hours>small,.estimate-method,.mastery-pill,.article-top,.native-outline button>span:first-child){color:var(--text-secondary)}
+html[data-theme=dark] :is(.letter-large,.review-mark){color:#a5dac6}
+html[data-theme=dark] :is(.alphabet-grid>button.selected,.alphabet-choices>button.right,.session-steps>.current,.milestones .earned>span,.activity-grid .active-day){background:#a5dac6;color:#102c25;border-color:#a5dac6}
+html[data-theme=dark] .alphabet-grid>button.selected small{color:#102c25}
+html[data-theme=dark] :is(.course-actions>.panel:hover,.lesson-row:hover,.volume-entry:hover,.choice-options button:hover){background:#304b4a;color:#f0f7f2}
+html[data-theme=dark] :is(.progress-track,.level-progress,.meter){background:#435b54}
+html[data-theme=dark] :is(.feedback.success,.feedback.good){background:#193f34;color:#d0f5df;border-color:#87c8a5}
+html[data-theme=dark] :is(.feedback.error,.feedback.again){background:#492a2b;color:#ffe0d8;border-color:#e6a59a}
+html[data-theme=dark] :focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+html[data-theme=dark] .writing-pad{background:#18292e;color:#e6eeea;border-color:#61776d}
+@media(max-width:720px){
+ .content{padding:22px 16px 28px;min-width:0}main{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+ .heading{gap:14px;flex-wrap:wrap}.heading h1{font-size:28px;line-height:1.2}.heading p{font-size:15px}
+ .panel.settings{padding:16px!important}.settings>.panel{padding:18px!important;margin-top:20px}
+ input,select,textarea{font-size:16px;max-width:100%;min-height:44px}
+ button.primary,button.secondary,.back,.tabs button,.native-tabs button,summary{min-height:44px}
+ .row,.filters,.review-actions,.native-article-actions,.session-toolbar{flex-wrap:wrap;gap:10px}
+ .course-resume{padding:24px}.course-resume h2{font-size:25px}.course-resume .row>*{width:100%;margin:0}
+ .course-actions>.panel{min-height:0;padding:22px}.course-overall{padding:22px!important}
+ .native-tabs{display:flex;overflow-x:auto;gap:6px}.native-tabs button{flex-shrink:0}
+ .native-article{padding:18px!important}.native-outline{position:static;max-height:220px;overflow:auto}
+ .alphabet-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.alphabet-grid>button{min-height:82px}.alphabet-grid>button small{font-size:12px}
+ .alphabet-choices{flex-wrap:wrap;gap:8px}.alphabet-choices>button{min-width:60px;flex:1;min-height:70px}
+ .letter-forms small{font-size:12px}.letter-forms{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .letter-example{gap:12px;flex-wrap:wrap}.letter-heading{gap:12px}.letter-large{min-width:72px;font-size:80px}
+ .mobile-nav{padding-bottom:calc(8px + env(safe-area-inset-bottom,0px));height:auto;min-height:64px}.mobile-nav>button{min-height:48px;font-size:13px}
+ #mobile-overflow{bottom:calc(68px + env(safe-area-inset-bottom,0px));max-height:60dvh;overflow:auto}#mobile-overflow button{min-height:48px}
+ .deck-row{flex-wrap:wrap;gap:10px}.deck-row>*{overflow-wrap:anywhere;min-width:0}
+ .footer-links{line-height:2}.footer-links a{display:inline-block;padding-block:6px}
+}
+html[data-theme=dark] :is(.question-status,.question-status>span,.question-prompt,.context-link,.question-footer>.back,.text-button,.progress-level>.row>span,.estimate-method summary){color:#c4e1d3}
+html[data-theme=dark] .milestones>div{opacity:1;color:#c4d1ca}
+html[data-theme=dark] .milestones .earned{color:#c9f1d9}
+html[data-theme=dark] .progress-level small{color:#bacbc3}
+html[data-theme=dark] .writing-pad path[stroke="#173f3d"]{stroke:#c9efdb}
+html[data-theme=dark] .writing-pad text{fill:#e6eeea;opacity:.25}
+@media(max-width:720px){.panel label select{display:block;margin:8px 0 0;width:100%}.inline-check{min-height:44px}.inline-check input{min-height:24px;width:24px;height:24px}.mobile-nav #mobile-overflow{bottom:100%}}
+html[data-theme=dark] :is(.mastery-pill,.question-status,.native-tabs small){background:#263b3f;color:#c4e1d3}
+html[data-theme=dark] .book-cover small{color:#fff5dd}
+html[data-theme=dark] :is(.info-banner,.finish-stats>div,.order-zone,.answer-box,.solution-block,.practice-tile:hover,.native-outline button:hover){background:#263b3f;color:#d5e5dc;border-color:#61776d}
+html[data-theme=dark] .volume-shelf .book-card .book-cover small{color:#fff5dd}
