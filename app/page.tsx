@@ -295,7 +295,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
             setView("home");
           }}
         >
-          <span className="brand-mark">ع</span>
+          <div className="brand-mark"><span>ع</span></div>
           <span>
             Arabic<span className="brand-sub">ACADEMY</span>
           </span>
