@@ -5,6 +5,11 @@ export function applyPreferences(p: Record<string, any>) {
     "--arabic-scale",
     String(p.arabicScale || 1),
   );
+  const root=document.documentElement;
+  root.dataset.theme=p.theme==='dark'||(p.theme!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';
+  root.style.setProperty('--reading-size', (p.readingSize||16)+'px');
+  root.style.setProperty('--reading-leading',String(p.readingLeading||1.8));
+  root.dataset.width=p.readingWidth||'comfortable';
   document.documentElement.dataset.motion = p.reducedMotion
     ? "reduce"
     : "system";
@@ -25,7 +30,11 @@ export default function Preferences({
   useEffect(() => applyPreferences(p), [p]);
   return (
     <section className="panel spaced">
-      <h2>{t("Lettura e ascolto", "Reading and listening")}</h2>
+      <h2>Aspetto e lettura</h2>
+      <label>Tema del sito<select value={p.theme||'system'} onChange={e=>save('theme',e.target.value)}><option value="system">Segui il dispositivo</option><option value="light">Chiaro</option><option value="dark">Scuro</option></select></label>
+      <label>Dimensione del testo delle lezioni<select value={p.readingSize||16} onChange={e=>save('readingSize',Number(e.target.value))}>{[16,18,20,22].map(n=><option key={n} value={n}>{n} px</option>)}</select></label>
+      <label>Interlinea delle lezioni<select value={p.readingLeading||1.8} onChange={e=>save('readingLeading',Number(e.target.value))}><option value="1.6">Compatta</option><option value="1.8">Normale</option><option value="2.1">Ampia</option></select></label>
+      <label>Larghezza di lettura<select value={p.readingWidth||'comfortable'} onChange={e=>save('readingWidth',e.target.value)}><option value="comfortable">Confortevole</option><option value="wide">Ampia</option></select></label>
       <label>
         {t("Dimensione dell’arabo", "Arabic text size")}
         <select

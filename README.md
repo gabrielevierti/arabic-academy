@@ -1,153 +1,65 @@
-# Arabic Academy
+# Arabic Academy
 
-**A free, open learning path for Arabic, with lessons, exercises, and progress tracking organised in one place, tailored to Italian speakers**
+Un percorso di apprendimento gratuito e aperto per l'arabo, con lezioni, esercizi e monitoraggio dei progressi organizzati in un unico posto.
 
-Arabic Academy grew out of a personal need: I want to learn Arabic without paying for a course or losing my way across dozens of separate resources.
+Arabic Academy è nata da un'esigenza personale: voglio imparare l'arabo senza pagare un corso né perdermi tra decine di risorse separate.
 
-The project is for anyone looking for a structured learning path and wanting to use Arabic in real life, including professional settings.
+Il progetto è pensato per chiunque cerchi un percorso di apprendimento strutturato e voglia usare l'arabo nella vita reale, anche in contesti professionali.
 
-## Why I built it
+## Perché l'ho creato
 
-There are plenty of free resources for learning Arabic online. The challenge I faced was bringing them together: one website for the alphabet, a video for pronunciation, a PDF for grammar, and exercises somewhere else. Figuring out what to study first, what comes next, and what to review becomes a task of its own.
+Di risorse gratuite per imparare l'arabo online ce ne sono molte. La difficoltà che ho incontrato è stata metterle insieme: un sito per l'alfabeto, un video per la pronuncia, un PDF per la grammatica ed esercizi da qualche altra parte. Capire cosa studiare prima, cosa viene dopo e cosa ripassare diventa un lavoro a sé stante.
 
-I couldn’t find a free resource that brought everything together the way I needed: an organised path, accessible explanations, exercises to practise with, and a simple way to track my progress.
+Non riuscivo a trovare una risorsa gratuita che mettesse tutto insieme come mi serviva: un percorso organizzato, spiegazioni accessibili, esercizi con cui fare pratica e un modo semplice per tenere traccia dei progressi.
 
-I also wanted an approach closer to practical and professional use of the language. Simple sentences help you learn the basics, but my goal isn’t to stop at “the horse drinks milk in the kitchen”: I want to understand information, read texts, and communicate in real situations.
+Volevo anche un approccio più vicino all'uso pratico e professionale della lingua. Le frasi semplici aiutano a imparare le basi, ma il mio obiettivo non è fermarmi a "il cavallo beve il latte in cucina": voglio capire le informazioni, leggere testi e comunicare in situazioni reali.
 
-So I started building the tool I wished I had found. Arabic Academy is the result of that work, and it is still evolving.
+Così ho iniziato a costruire lo strumento che avrei voluto trovare. Arabic Academy è il risultato di quel lavoro, ed è ancora in evoluzione.
 
-## What it offers
+## Cosa offre
 
-- **A learning path organised by level**, so you know where to start and how to move forward.
-- **Lessons available directly on the website**, with explanations, examples, and tables.
-- **Interactive exercises**, with automatic checking for constrained answers and reference models for open-ended responses.
-- **Interactive alphabet**, with the 28 basic letters, joining forms, example words, device speech and a five-question quiz.
-- **Automatic mistake review and personal flashcards**, with scheduled follow-up practice.
-- **Guided study sessions**, combining review, a reading step and practice around a flexible 15-minute goal.
-- **Clear progress tracking**, including active study time, reading steps, answered questions, milestones and transparent estimates for the next level.
-- **Personal notes and lessons**, to adapt your studies to your needs.
-- **Progress saved in your browser**, with backup export and import.
+- Un percorso di apprendimento organizzato per livelli, così sai da dove iniziare e come procedere.
+- Lezioni disponibili direttamente sul sito, con spiegazioni, esempi e tabelle.
+- Esercizi interattivi, con correzione automatica per le risposte vincolate e modelli di riferimento per le risposte aperte.
+- Alfabeto interattivo, con le 28 lettere di base, le forme di congiunzione, parole di esempio, sintesi vocale del dispositivo e un quiz di cinque domande.
+- Ripasso automatico degli errori e flashcard personali, con pratica di follow-up programmata.
+- Sessioni di studio guidate, che combinano ripasso, un passo di lettura e pratica intorno a un obiettivo flessibile di 15 minuti.
+- Monitoraggio chiaro dei progressi, inclusi tempo di studio attivo, passi di lettura, domande a cui si è risposto, traguardi e stime trasparenti per il livello successivo.
+- Note e lezioni personali, per adattare lo studio alle tue esigenze.
+- Progressi salvati nel browser, con esportazione e importazione di backup.
+- Il corso inizia con il sistema di scrittura e l'arabo standard moderno (MSA). L'uso pratico e professionale è la direzione del progetto: questo non significa che ogni lezione sia già specializzata né che il corso da solo ti prepari a una professione.
 
-The course starts with the writing system and Modern Standard Arabic (MSA). Practical and professional use is the direction of the project: this does not mean every lesson is already specialised or that the course alone prepares you for a profession.
+## A chi è rivolto
 
-## Who it is for
+A chiunque voglia iniziare a imparare l'arabo, a chi ha già raccolto materiali ma fatica a organizzarli e a chi cerca un posto gratuito dove studiare con costanza.
 
-Anyone who wants to start learning Arabic, anyone who has already collected materials but struggles to organise them, and anyone looking for a free place to study consistently.
+Non devi condividere gli obiettivi professionali o personali che mi hanno portato a costruirlo. Se ti aiuta a imparare qualcosa, il progetto sta già facendo ciò per cui è stato creato.
 
-You don’t need to share the professional or personal goals that led me to build it. If it helps you learn something, the project is already doing what it was created to do.
+## Feedback, correzioni e contributi
 
-## Project status and limitations
+Le critiche costruttive e le correzioni sono benvenute. Non devi essere d'accordo con le scelte del progetto: ciò che conta è aiutare a individuare cosa non funziona e come migliorarlo.
 
-The materials currently included cover **A0–B2**. Sections for **C1 and C2** are prepared for future additions; they are not yet complete courses.
+Per segnalare un errore, apri una Issue e includi:
 
-The interface and course materials are available in **Italian and English**, with the Arabic examples preserved. The English course is machine-translated, with structural checks and selected manual corrections; it has not received a comprehensive human linguistic review. See [TRANSLATIONS.md](TRANSLATIONS.md).
+- Il livello, la lezione e l'esercizio pertinenti.
+- La formulazione o il comportamento che ritieni scorretto.
+- La correzione che proponi e il ragionamento che la sostiene.
+- Una fonte verificabile o una spiegazione linguistica documentata quando segnali un problema con i materiali didattici.
+- Se esistono più forme accettabili, differenze di registro o distinzioni tra arabo standard moderno e dialetti, specificalo. L'obiettivo è migliorare il materiale senza sostituire un'inesattezza con un'altra.
 
-**This project is not perfect, and it does not claim to be.** The content has not undergone a comprehensive linguistic review and may contain errors, unclear explanations, or activities that need improvement.
+Sono utili anche segnalazioni di bug, miglioramenti all'accessibilità, traduzioni, spiegazioni più chiare e suggerimenti per attività pratiche. Puoi contribuire tramite una Issue o una pull request. 
 
-In particular:
+Ti preghiamo di non includere backup, note personali o altri dati privati nelle tue segnalazioni.
 
-- Automatic checking compares your response against expected answers and may not recognise every valid alternative.
-- Open-ended responses require comparison with a model and self-assessment; they are not graded by a teacher or a language assessment system.
-- Audio playback, when available, uses your device’s text-to-speech capabilities. It does not replace native-speaker recordings or conversation practice.
-- Levels organise the material: completing the course does not amount to earning a language certification.
+## Perché renderlo disponibile a tutti?
 
-The website is a tool to support independent study. Feedback from knowledgeable speakers, listening, and real-world practice remain important.
+Voglio che i miei progetti siano disponibili per chiunque ne abbia bisogno.
+Se costruisco qualcosa per risolvere un mio problema e questo può aiutare anche altre persone, condividerlo ha senso per me.
 
-## How to use it
+Arabic Academy segue questa idea: ridurre le barriere all'apprendimento e permettere ad altri di usare, migliorare e sviluppare lo strumento. Non devi pagare per accedere al corso e non devi contribuire con codice per usarlo.
 
-Open the website using the address listed in the repository’s **About** section or under **Settings → Pages**. If you are starting from scratch, begin with **A0**: read the explanations, complete the exercises, and revisit topics that need more practice.
+## Licenza
 
-No account or subscription is required. In the GitHub Pages version, your progress and personal content are stored in the browser on the device you are using.
+Il codice dell'applicazione è distribuito con licenza MIT: vedi LICENSE.
 
-**Export a backup regularly from Settings.** Clearing your browser data may also erase your progress. To continue on another device, export your backup and import it there: devices do not sync automatically.
-
-## Feedback, corrections, and contributions
-
-Constructive criticism and corrections are welcome. You don’t have to agree with the project’s choices: what matters is helping identify what isn’t working and how to improve it.
-
-To report an error, open an **Issue** and include:
-
-1. The relevant level, lesson, and exercise.
-2. The wording or behaviour you believe is incorrect.
-3. Your proposed correction and the reasoning behind it.
-4. A verifiable source or a documented linguistic explanation when reporting an issue with the learning materials.
-
-If there are multiple acceptable forms, differences in register, or distinctions between Modern Standard Arabic and dialects, please specify them. The aim is to improve the material without replacing one inaccuracy with another.
-
-Bug reports, accessibility improvements, translations, clearer explanations, and suggestions for practical activities are also useful. You can contribute through an Issue or a pull request. Please do not include backups, personal notes, or other private data in your reports.
-
-## Why make it available to everyone?
-
-I want my projects to be available to anyone who needs them. If I build something to solve a problem of my own and it can also help other people, sharing it makes sense to me.
-
-Arabic Academy follows that idea: reducing barriers to learning and allowing others to use, improve, and develop the tool. You don’t need to pay to access the course, and you don’t need to contribute code to use it.
-
-## Running locally
-
-The website is built with **React, TypeScript, and Vite** and can be hosted on **GitHub Pages**, without an application server or API keys.
-
-Requires Node.js 22.13 or later.
-
-```bash
-npm ci
-npm run dev
-```
-
-To run the tests and create a production build:
-
-```bash
-npm test
-npm run build
-```
-
-The build is generated in the `dist/` directory. The workflow in `.github/workflows/pages.yml` handles deployment to GitHub Pages after updates to the `main` branch, once Pages is configured to use **GitHub Actions** as its source.
-
-## Licence
-
-The application code is distributed under the **MIT licence**: see [LICENSE](LICENSE).
-
-The code licence does not automatically grant the same rights to the learning materials. For information about the origin and distribution terms of the content, see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
-
-
-## Switching course language
-
-Use the **Italiano / English** buttons in the top bar. The selection applies to
-the course index, lesson explanations, exercise instructions, choices, model
-answers and correction notes. Arabic and transliteration are preserved. The
-choice is remembered on this device. Lesson/question IDs are shared, so switching
-language preserves your progress and submitted answers. Personal notes and
-custom content are not rewritten.
-
-English files are included with the website: no translation service, API key
-or paid subscription is needed. The English edition is machine-translated and
-open to documented corrections. Translation sources, limitations and contributor
-instructions are in [TRANSLATIONS.md](TRANSLATIONS.md).
-
-## Daily study and progress
-
-The dashboard focuses on today’s study, rather than repeating the learning path.
-Exercises opens course practice directly. Previously saved personal exercises
-remain accessible; creating custom quizzes is no longer the primary flow.
-The Library is for reference material, assessments, handwriting and solutions.
-
-Mistakes are available immediately. Successful reviews return after 1, 3, 7,
-14 and then 30 days; another mistake resets the interval. Open responses still
-require self-assessment. This schedule is a simple practice aid, not a validated
-measurement of mastery.
-
-Active time is counted in lessons, the alphabet and guided sessions, only while
-the tab is visible and there has been interaction in the last minute. A session
-can be paused or ended early. Sessions are short blocks: continue with another
-block if you want to reach the 15-minute target. Earlier study time is not
-reconstructed. Answers and reading progress persist when leaving a session;
-the unfinished session’s plan and timer do not resume after a reload.
-
-Remaining-hour ranges come from the original core lesson plans. Half of the
-estimate decreases with reading steps and half with correct or self-confirmed
-answers. Marking a lesson complete clears its remaining estimate. Supplementary
-tracks are excluded. These are planning estimates, not proficiency predictions
-or certificates. C1 and C2 remain unavailable until their content is added.
-
-Existing local records and older backups are supported. New backups also include
-alphabet familiarity, mistake schedules, active time and session summaries.
-Keep the same Pages address to retain access to the existing browser database.
+La licenza del codice non concede automaticamente gli stessi diritti sui materiali didattici. Per informazioni sull'origine e i termini di distribuzione dei contenuti, vedi CONTENT-LICENSE.md.

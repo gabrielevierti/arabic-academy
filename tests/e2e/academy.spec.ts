@@ -156,7 +156,7 @@ test("restricted storage does not pretend to save progress", async ({
   await page.goto("/");
   await expect(page.getByRole("alert")).toContainText("Storage blocked");
   await expect(
-    page.getByRole("button", { name: /Archivio locale non disponibile/ }),
+    page.getByRole("alert"),
   ).toBeVisible();
 });
 test("mistake review persists correction and schedules tomorrow", async ({
@@ -166,8 +166,8 @@ test("mistake review persists correction and schedules tomorrow", async ({
   await page.getByRole("button", { name: /02 Allenati/ }).click();
   await page.locator(".choice-options button").first().click();
   await page
-    .locator(".course-navigation")
-    .getByRole("button", { name: "Ripasso e correzioni", exact: true })
+    .locator(".sidebar")
+    .getByRole("button", { name: "Ripasso errori", exact: true })
     .click();
   await page
     .getByRole("button", {
@@ -193,22 +193,7 @@ test("mistake review persists correction and schedules tomorrow", async ({
   expect(data[key].history).toHaveLength(2);
   expect(data["review:" + key].interval).toBe(1);
 });
-test("micro lesson unlocks next unit only after completed practice", async ({
-  page,
-}) => {
-  await page.goto("/#/micro");
-  await page.getByRole("button", { name: /Riconoscere bāʾ/ }).click();
-  await page.getByRole("button", { name: "Passa alla pratica" }).click();
-  await page.locator(".choice-options button").nth(1).click();
-  await page.getByRole("button", { name: "Continua →", exact: true }).click();
-  await expect(
-    page.getByRole("heading", { name: "Unità completata" }),
-  ).toBeVisible();
-  await page.getByRole("button", { name: "Prossima unità" }).click();
-  await expect(
-    page.getByRole("button", { name: /Distinguere tāʾ/ }),
-  ).toBeEnabled();
-});
+
 test("offline shell and cached lesson survive reload", async ({
   page,
   context,
@@ -265,7 +250,7 @@ test("quota failures remain visible and pending data is exportable", async ({
     page.getByRole("button", { name: "Esporta backup JSON" }),
   ).toBeEnabled();
   await expect(
-    page.getByRole("button", { name: /Salvataggio non riuscito/ }),
+    page.getByRole("button", { name: "Riprova il salvataggio" }),
   ).toBeVisible();
 });
 test("committed settings propagate across tabs", async ({ page, context }) => {
@@ -363,7 +348,7 @@ test("Italian course hub connects resume, exercises and corrections", async ({ p
   await page.locator('.sidebar').getByRole('button',{name:'Corso',exact:true}).click();
   await page.locator('.course-actions').getByRole('button',{name:/METTI IN PRATICA/}).click();
   await expect(page).toHaveURL(/practice/);
-  await page.locator('.course-navigation').getByRole('button',{name:'Ripasso e correzioni'}).click();
+  await page.locator('.sidebar').getByRole('button',{name:'Ripasso errori'}).click();
   await expect(page).toHaveURL(/review/);
   expect(fs.existsSync('dist/course/en')).toBe(false);
   expect(fs.existsSync('dist/study/en')).toBe(false);
@@ -401,7 +386,24 @@ test('slow section loading keeps navigation visible',async({page})=>{
  await page.locator('.sidebar').getByRole('button',{name:'Biblioteca',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Prepariamo questa sezione…'})).toBeVisible();
  await expect(page.locator('.sidebar')).toBeVisible();
- await expect(page.locator('.topbar')).toBeVisible();
+ await expect(page.locator('.topbar')).toHaveCount(0);
  release();
  await expect(page.locator('.volume-shelf')).toBeVisible();
+});
+
+test('appearance settings persist and obsolete navigation is removed',async({page})=>{
+ await page.goto('/#/settings');
+ await page.getByLabel('Tema del sito').selectOption('dark');
+ await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
+ await page.getByLabel('Dimensione del testo delle lezioni').selectOption('20');
+ await page.waitForTimeout(1000);
+ await page.reload();
+ await expect(page.getByLabel('Tema del sito')).toHaveValue('dark');
+ await expect(page.getByLabel('Dimensione del testo delle lezioni')).toHaveValue('20');
+ await expect(page.locator('.topbar,.course-navigation')).toHaveCount(0);
+ await expect(page.getByRole('button',{name:'Microlezioni',exact:true})).toHaveCount(0);
+ await expect(page.locator('footer')).toContainText('Gabriele Vierti');
+ await page.screenshot({path:'reports/screenshots/settings-dark.png',fullPage:true});
+ await page.getByLabel('Tema del sito').selectOption('light');
+ await expect(page.locator('html')).toHaveAttribute('data-theme','light');
 });

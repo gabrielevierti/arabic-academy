@@ -1,10 +1,10 @@
 import {tr,useLanguage} from "../lib/i18n";
 ("use client");
 import React, { useState, useEffect, useRef, lazy, Suspense } from "react";
-const MicroLessons = lazy(() => import("./micro-lessons"));
+
 const BookLibrary = lazy(() => import("./book-library"));
 import OfflineStatus, { OfflineSettings } from "./offline-status";
-import Navigation,{CourseNavigation} from "./navigation";
+import Navigation from "./navigation";
 import CourseHub from "./course-hub";
 import Preferences, { applyPreferences } from "./preferences";
 import { useDialogFocus } from "../lib/use-dialog-focus";
@@ -250,7 +250,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
     setNotice("Contenuto aggiunto al tuo corso.");
   }
   useDialogFocus(!!modal, () => setModal(""));
-  useEffect(() => applyPreferences(data.preferences || {}), [data.preferences]);
+  useEffect(() => { const update=()=>applyPreferences(data.preferences || {}); update(); const media=matchMedia("(prefers-color-scheme: dark)");media.addEventListener("change",update);return()=>media.removeEventListener("change",update); }, [data.preferences]);
   const routeData = useRef({ lessons, loaded });
   routeData.current = { lessons, loaded };
   function setView(v: string) {
@@ -273,7 +273,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
       }
       if (r.view === "resource") setResource(r.id || "");
       if (r.level && levels.includes(r.level)) setLevel(r.level);
-      setViewState(r.view==='home'?'course':r.view);
+      setViewState(['home','micro'].includes(r.view)?'course':r.view);
       setSearch("");
       requestAnimationFrame(() => {
         document.getElementById("main-content")?.focus();
@@ -284,22 +284,6 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
     window.addEventListener("hashchange", update);
     return () => window.removeEventListener("hashchange", update);
   }, [course, loaded]);
-  const headerTitle: Record<string, string> = {
-    alphabet: t("Alfabeto", "Alphabet"),
-    session: t(`Studia ${data.goal||15} minuti`, `Study for ${data.goal||15} minutes`),
-    micro: t("Micro-lezioni A0", "A0 micro-lessons"),
-    "error-session": t("Ripasso degli errori", "Mistake review"),
-    home: tr("Il mio spazio"),
-    course: "Il tuo corso",
-    review: "Ripasso e correzioni",
-    flashcards: "Flashcard",
-    practice: tr("Esercizi"),
-    stats: tr("I miei progressi"),
-    library: tr("Biblioteca"),
-    settings: tr("Impostazioni"),
-    resource: tr("Approfondimenti"),
-    lesson: selected?.code || tr("Lezione"),
-  };
   return (
     <div className="shell">
       <aside className="sidebar">
@@ -336,26 +320,10 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
         {t("Vai al contenuto", "Skip to content")}
       </a>
       <main>
-        <header className="topbar">
-
-          <span>
-            {tr("La tua academy ")}
-            <span className="crumb">/</span> <b>{headerTitle[view]}</b>
-          </span>
-          <button
-            className={"sync " + (sync.includes("non") ? "error" : "")}
-            onClick={() =>
-              loaded ? void flush().catch(() => {}) : void load()
-            }
-          >
-            <span className="dot" />
-            {tr(sync)}
-          </button>
-        </header>
         <Navigation view={view} navigate={setView} mobile />
         <div className="content" id="main-content" tabIndex={-1}>
           <OfflineStatus flush={flush} />
-          <CourseNavigation view={view} navigate={setView}/>
+
           <Suspense fallback={<SectionLoading/>}>
           {view === "missing" && (
             <div className="panel">
@@ -368,6 +336,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
           {storageError && (
             <div className="notice" role="alert">
               {storageError}
+              <button className="secondary" onClick={()=>{void (loaded?flush():load()).catch(()=>{})}}>Riprova il salvataggio</button>
             </div>
           )}
           {notice && (
@@ -380,9 +349,6 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                 ×
               </button>
             </div>
-          )}
-          {view === "micro" && loaded && (
-            <MicroLessons data={data} put={put} lessons={lessons} />
           )}
           {view === "alphabet" && loaded && <Alphabet data={data} put={put} />}
           {["session", "error-session"].includes(view) && loaded && (
@@ -405,9 +371,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
               <button className="secondary" onClick={() => setView("alphabet")}>
                 {t("Alfabeto interattivo", "Interactive alphabet")}
               </button>
-              <button className="primary" onClick={() => setView("micro")}>
-                {t("Micro-lezioni A0", "A0 micro-lessons")}
-              </button>
+
               </div><div className="heading spaced">
                 <div>
                   <div className="eyebrow">LE LEZIONI</div>
@@ -903,6 +867,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
         <footer>
           ARABIC ACADEMY{" "}
           <span>{tr("Il tuo percorso. Una parola alla volta.")}</span>
+          <div className="footer-links">© {new Date().getFullYear()} Gabriele Vierti · <a href="https://github.com/gabrielevierti" target="_blank" rel="noopener noreferrer">GitHub di Gabriele Vierti</a> · <a href="https://github.com/gabrielevierti/arabic-academy" target="_blank" rel="noopener noreferrer">Repository del sito</a></div>
         </footer>
       </main>
       {modal && (
