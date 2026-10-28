@@ -1,0 +1,26 @@
+{
+  "baselineCommit": "844861467bc225c095e94025ed2ba9d43fd7c2e6",
+  "candidate": "2.0.0-rc.2",
+  "unitIntegration": {
+    "passed": 29,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 27,
+    "failed": 0,
+    "engine": "Chromium 153.0.8010.0"
+  },
+  "axeScannedStates": 6,
+  "axeDetectedViolations": 0,
+  "content": {
+    "documents": 972,
+    "errors": 0,
+    "editorialWarnings": 616
+  },
+  "typecheck": "passed",
+  "build": "passed",
+  "deployment": "not attempted",
+  "fullSpecificationComplete": false,
+  "italianOnlyDeployment": true,
+  "iteration": "volume-library-study-shortcuts"
+}

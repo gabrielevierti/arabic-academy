@@ -1,0 +1,7 @@
+[
+ {"id":"A0-baa","source":"A0-L0-01","chapter":5,"objective":{"it":"Riconoscere bāʾ e il punto sotto la lettera.","en":"Recognise bāʾ and its dot below the letter."},"prerequisites":[],"questions":["2"]},
+ {"id":"A0-taa","source":"A0-L0-01","chapter":6,"objective":{"it":"Distinguere tāʾ da bāʾ usando i punti.","en":"Distinguish tāʾ from bāʾ using the dots."},"prerequisites":["A0-baa"],"questions":["3"]},
+ {"id":"A0-thaa","source":"A0-L0-01","chapter":7,"objective":{"it":"Riconoscere ṯāʾ e i suoi tre punti.","en":"Recognise ṯāʾ and its three dots."},"prerequisites":["A0-taa"],"questions":["4"]},
+ {"id":"A0-vowels","source":"A0-L0-01","chapter":3,"objective":{"it":"Leggere le vocali brevi e riconoscere il sukūn.","en":"Read short vowels and recognise sukūn."},"prerequisites":["A0-thaa"],"questions":["5","6","7"]},
+ {"id":"A0-words","source":"A0-L0-01","chapter":10,"objective":{"it":"Comporre e richiamare le prime parole del corso.","en":"Construct and recall the first course words."},"prerequisites":["A0-vowels"],"questions":["8","9","10"]}
+]

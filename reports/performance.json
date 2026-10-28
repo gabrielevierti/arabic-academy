@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-28T09:01:21.158Z",
+  "measurement": "Production artifact sizes, not field performance or Lighthouse scores",
+  "baseline": {
+    "initialJsBytes": 1125620,
+    "initialJsGzipBytes": 218850
+  },
+  "current": {
+    "main": {
+      "name": "index-D9-C6vRU.js",
+      "bytes": 253235,
+      "gzip": 78576
+    },
+    "italianIndex": {
+      "name": "course-1itrWnmV.js",
+      "bytes": 417185,
+      "gzip": 62344
+    },
+    "initialItalianJsBytes": 670420,
+    "initialItalianJsGzipBytes": 140920
+  },
+  "assets": [
+    {
+      "name": "alphabet-BbnuYo6r.js",
+      "bytes": 16223,
+      "gzip": 6475
+    },
+    {
+      "name": "book-library-DjyTU1z8.js",
+      "bytes": 6844,
+      "gzip": 2471
+    },
+    {
+      "name": "course-1itrWnmV.js",
+      "bytes": 417185,
+      "gzip": 62344
+    },
+    {
+      "name": "guided-session-Def-Sgw-.js",
+      "bytes": 8277,
+      "gzip": 3430
+    },
+    {
+      "name": "index-D9-C6vRU.js",
+      "bytes": 253235,
+      "gzip": 78576
+    },
+    {
+      "name": "index-DBbFQ3qb.css",
+      "bytes": 52080,
+      "gzip": 12099
+    },
+    {
+      "name": "micro-lessons-C7WRQa1p.js",
+      "bytes": 4101,
+      "gzip": 1836
+    },
+    {
+      "name": "native-course-56b9Ep-n.js",
+      "bytes": 22639,
+      "gzip": 7845
+    },
+    {
+      "name": "progress-NIt7AhRE.js",
+      "bytes": 9143,
+      "gzip": 3570
+    },
+    {
+      "name": "vocabulary-jwIziE-b.js",
+      "bytes": 313,
+      "gzip": 251
+    }
+  ]
+}

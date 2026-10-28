@@ -1,6 +1,6 @@
 {
   "name": "arabic-academy",
-  "version": "1.0.0",
+  "version": "2.0.0-rc.2",
   "private": true,
   "type": "module",
   "license": "MIT",
@@ -9,19 +9,26 @@
   },
   "scripts": {
     "dev": "node node_modules/vite/bin/vite.js --host 0.0.0.0",
-    "build": "node node_modules/typescript/bin/tsc --noEmit && node node_modules/vite/bin/vite.js build",
+    "build": "node scripts/clean-build.mjs && node node_modules/typescript/bin/tsc --noEmit && node node_modules/vite/bin/vite.js build && node scripts/italian-build.mjs && node scripts/build-offline.mjs && node scripts/measure-build.mjs",
     "preview": "node node_modules/vite/bin/vite.js preview",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "content:qa": "node scripts/content-qa.mjs",
+    "content:index": "node scripts/build-study-indexes.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "vite": "8.0.13",
-    "typescript": "5.9.3",
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "22.19.19",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@types/node": "22.19.19"
+    "fake-indexeddb": "^6.2.6",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
   }
 }

@@ -1,0 +1,15 @@
+import {errorQueue,localDay} from '../lib/learning';
+import metadata from '../data/study-metadata.json';
+type Lesson={id:string;title:string;level:string;code:string;custom?:boolean};
+export default function CourseHub({data,lessons,current,loaded,onResume,onStudy,onPractice,onReview}:{data:Record<string,any>;lessons:Lesson[];current:Lesson;loaded:boolean;onResume:()=>void;onStudy:()=>void;onPractice:()=>void;onReview:()=>void}){
+ const core=lessons.filter(l=>(metadata as Record<string,{core:boolean}>)[l.id]?.core);
+ const complete=core.filter(l=>data['progress:'+l.id]?.done).length,percent=core.length?Math.round(100*complete/core.length):0;
+ const errors=errorQueue(data).length,answers=Object.entries(data).filter(([k,v])=>k.startsWith('answer:native:')&&['good','again','partial'].includes(v?.rating));
+ const minutes=Math.floor((data['study:'+localDay()]?.seconds||0)/60),goal=data.goal||15;
+ return <section className="course-hub"><div className="heading"><div><div className="eyebrow">DALL’ITALIANO ALL’ARABO · UN PASSO ALLA VOLTA</div><h1>Il tuo corso di arabo.</h1><p>Le basi per capire, leggere e comunicare in situazioni concrete, anche sul lavoro.</p></div></div>
+ <div className="course-hub-grid"><section className="course-resume"><span className="eyebrow">RIPARTI DA QUI · {current.level}</span><h2>{current.title}</h2><p>Riprendi la lezione dal punto in cui eri rimasto, oppure dedica allo studio una sessione guidata.</p><div className="row"><button className="primary light" disabled={!loaded} onClick={onResume}>Riprendi il corso →</button><button className="secondary" disabled={!loaded} onClick={onStudy}>Studia {goal} minuti</button></div><small>Oggi: {minutes} di {goal} minuti di studio attivo</small></section>
+ <section className="panel course-overall"><span className="eyebrow">PROGRESSO GENERALE · A0–B2</span><strong>{loaded?`${percent}%`:'…'}</strong><progress aria-label="Lezioni principali completate" value={complete} max={Math.max(1,core.length)}/><p>{complete} di {core.length} lezioni principali completate</p><small>Avanzamento nei contenuti, non una misura del livello linguistico. Include le lezioni già segnate complete.</small></section></div>
+ <div className="course-actions"><button className="panel" disabled={!loaded} onClick={onPractice}><span className="eyebrow">METTI IN PRATICA</span><h2>Esercizi</h2><p>Allena lettura, lessico e grammatica con le attività del corso.</p><b>{answers.length} risposte registrate · Vai agli esercizi →</b></button><button className="panel" disabled={!loaded} onClick={onReview}><span className="eyebrow">IMPARA DALLE CORREZIONI</span><h2>Ripasso e correzioni</h2><p>Rivedi gli errori, confronta le risposte con le soluzioni e ripassa le parole.</p><b>{errors?`${errors} domande da ripassare oggi`:'Nessun errore in scadenza oggi'} →</b></button></div>
+ <p className="course-purpose">Arabo standard moderno, spiegato in italiano. L’obiettivo è un uso pratico e lavorativo della lingua: il percorso parte dalle basi e non costituisce una qualifica professionale. C1 e C2 sono in preparazione.</p>
+ </section>
+}

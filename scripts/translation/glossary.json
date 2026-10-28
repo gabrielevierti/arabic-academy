@@ -1,0 +1,26 @@
+{
+  "status": "Editorial terminology guide; not a claim of full human linguistic review",
+  "terms": [
+    {"it":"corsivo obbligatorio","en":"connected script","domain":"writing"},
+    {"it":"quattro forme","en":"four letter forms","domain":"writing"},
+    {"it":"grammatica","en":"grammar","domain":"grammar"},
+    {"it":"sintassi","en":"syntax","domain":"syntax"},
+    {"it":"morfologia","en":"morphology","domain":"morphology"},
+    {"it":"declinazione","en":"declension","domain":"cases"},
+    {"it":"nominativo","en":"nominative","domain":"cases"},
+    {"it":"accusativo","en":"accusative","domain":"cases"},
+    {"it":"genitivo","en":"genitive","domain":"cases"},
+    {"it":"forme verbali","en":"verb forms","domain":"verbs"},
+    {"it":"frase nominale","en":"nominal sentence","domain":"syntax"},
+    {"it":"frase verbale","en":"verbal sentence","domain":"syntax"},
+    {"it":"radice","en":"root","domain":"morphology"},
+    {"it":"traslitterazione","en":"transliteration","domain":"transliteration"},
+    {"it":"pronuncia","en":"pronunciation","domain":"pronunciation"},
+    {"it":"vocali brevi","en":"short vowels","domain":"diacritics"},
+    {"it":"vocali lunghe","en":"long vowels","domain":"pronunciation"},
+    {"it":"segni diacritici","en":"diacritics","domain":"diacritics"},
+    {"it":"confronta con il modello","en":"compare with the model answer","domain":"instructions"},
+    {"it":"riordina","en":"put in order","domain":"instructions"},
+    {"it":"completa","en":"complete","domain":"instructions"}
+  ]
+}

@@ -1,0 +1,4325 @@
+{
+  "generatedAt": "2026-10-27T20:45:57.754Z",
+  "status": "Structural checks do not establish linguistic correctness or human review.",
+  "counts": {
+    "documents": 972,
+    "lessons": 270,
+    "questions": 14364
+  },
+  "errors": 0,
+  "warnings": 616,
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-01.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-01.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-02.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-02.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-03.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-04.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-05.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate-content",
+      "file": "public/course/A0-L0-07.json",
+      "path": "$.exercises[7].items[1]",
+      "message": "Same prompt/solution as $.exercises[6].items[3]"
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate-content",
+      "file": "public/course/A0-L0-07.json",
+      "path": "$.exercises[7].items[2]",
+      "message": "Same prompt/solution as $.exercises[6].items[4]"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-07.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-09.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-09.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A0-L0-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-01.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-01.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-02.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-02.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-03.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-04.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-05.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-05.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-07.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-07.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-08.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-08.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-09.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-10.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-11.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-11.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-12.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-13.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-13.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-14.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-14.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-14.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-15.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-15.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-17.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-17.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-17.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-18.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A1-A1-19.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-01.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-01.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-02.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-03.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-03.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-03.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-04.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-05.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-05.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-05.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-07.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-08.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-09.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-10.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-11.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-12.json",
+      "path": "$.exercises[14].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-12.json",
+      "path": "$.exercises[15].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-13.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-13.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-14.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-14.json",
+      "path": "$.exercises[13].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-15.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-15.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-15.json",
+      "path": "$.exercises[13].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-16.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-16.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-17.json",
+      "path": "$.exercises[13].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-17.json",
+      "path": "$.exercises[14].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-18.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-19.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-20.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-20.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-20.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-21.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-21.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-21.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-21.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-22.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-22.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-22.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-23.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-23.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-23.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-24.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-24.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-A2-24.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-ONO-01.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/A2-ONO-02.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-01.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-01.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-02.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-02.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-03.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-04.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-05.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-07.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-07.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-08.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-09.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-09.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-09.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-10.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-11.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-11.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-12.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-12.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-13.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-13.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-14.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-14.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-15.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-15.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-16.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-16.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-16.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-16.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-17.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-17.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-17.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-17.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-17.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-18.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-18.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-18.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-18.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-18.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-19.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-20.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-20.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-20.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-20.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-21.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-21.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-21.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-21.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-21.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-21.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-22.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-22.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-22.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-22.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-23.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-23.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-23.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-23.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-24.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-B1-24.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-01.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-01.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-02.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-02.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-03.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-04.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-05.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-05.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-05.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-06.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-06.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-06.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-07.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-07.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-07.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-08.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-08.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-08.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-09.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-09.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-09.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-09.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-10.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-10.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-EGY-10.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-INT-01.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-INT-01.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-INT-01.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-INT-02.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-INT-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-INT-02.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-ONO-03.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B1-ONO-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-ARZ-01.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-ARZ-02.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-01.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-02.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-02.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-02.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-02.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-03.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-03.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-04.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-05.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-05.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-06.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-06.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-07.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-07.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-07.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-08.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-09.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-09.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-09.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-10.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-11.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-12.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-12.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-12.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-13.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-13.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-13.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-13.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-14.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-14.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-14.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-14.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-15.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-15.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-15.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-16.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-18.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-18.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-19.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-19.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-20.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-20.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-21.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-21.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-22.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-23.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-23.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-23.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-24.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-24.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-B2-24.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-11.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-11.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-12.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-13.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-13.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-14.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-14.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-15.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-15.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-16.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-16.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-17.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-EGY-17.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-03.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-03.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-03.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-04.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-04.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-05.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-05.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-05.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-06.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-06.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/B2-INT-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-01.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-01.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-02.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-02.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-03.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-04.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-05.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate-content",
+      "file": "public/course/en/A0-L0-07.json",
+      "path": "$.exercises[7].items[1]",
+      "message": "Same prompt/solution as $.exercises[6].items[3]"
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate-content",
+      "file": "public/course/en/A0-L0-07.json",
+      "path": "$.exercises[7].items[2]",
+      "message": "Same prompt/solution as $.exercises[6].items[4]"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-07.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-09.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-09.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "explanation",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "No individual explanation"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A0-L0-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-01.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-01.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-02.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-02.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-03.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-04.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-05.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-05.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-07.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-07.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-08.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-08.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-09.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-10.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-11.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-11.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-12.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-13.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-13.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-14.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-14.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-14.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-15.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-15.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-17.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-17.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-17.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-18.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A1-A1-19.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-01.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-01.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-02.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-03.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-03.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-03.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-04.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-05.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-05.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-05.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-07.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-08.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-09.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-10.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-11.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-12.json",
+      "path": "$.exercises[14].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-12.json",
+      "path": "$.exercises[15].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-13.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-13.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-14.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-14.json",
+      "path": "$.exercises[13].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-15.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-15.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-15.json",
+      "path": "$.exercises[13].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-16.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-16.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-17.json",
+      "path": "$.exercises[13].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-17.json",
+      "path": "$.exercises[14].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-18.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-19.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-20.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-20.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-20.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-21.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-21.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-21.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-21.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-22.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-22.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-22.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-23.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-23.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-23.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-24.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-24.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-A2-24.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-ONO-01.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/A2-ONO-02.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-01.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-01.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-02.json",
+      "path": "$.exercises[11].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-02.json",
+      "path": "$.exercises[12].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-03.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-04.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-05.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-07.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-07.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-08.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-09.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-09.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-09.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-10.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-11.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-11.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-12.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-12.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-13.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-13.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-14.json",
+      "path": "$.exercises[8].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-14.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-15.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-15.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-16.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-16.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-16.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-16.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-17.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-17.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-17.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-17.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-17.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-18.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-18.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-18.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-18.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-18.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-19.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-20.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-20.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-20.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-20.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-21.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-21.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-21.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-21.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-21.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-21.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-22.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-22.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-22.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-22.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-23.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-23.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-23.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-23.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-24.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-B1-24.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-01.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-01.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-02.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-02.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-03.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-04.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-05.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-05.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-05.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-06.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-06.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-06.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-07.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-07.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-07.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-08.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-08.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-08.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-09.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-09.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-09.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-09.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-10.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-10.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-EGY-10.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-INT-01.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-INT-01.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-INT-01.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-INT-02.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-INT-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-INT-02.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-ONO-03.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B1-ONO-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-ARZ-01.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-ARZ-02.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-01.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-02.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-02.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-02.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-02.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-02.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-03.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-03.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-04.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-05.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-05.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-06.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-06.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-07.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-07.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-07.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-08.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-08.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-09.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-09.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-09.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-10.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-10.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-11.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-12.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-12.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-12.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-13.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-13.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-13.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-13.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-14.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-14.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-14.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-14.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-15.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-15.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-15.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-16.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-16.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-18.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-18.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-19.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-19.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-20.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-20.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-21.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-21.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-22.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-23.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-23.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-23.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-24.json",
+      "path": "$.exercises[0].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-24.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-B2-24.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-11.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-11.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-12.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-13.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-13.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-14.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-14.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-15.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-15.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-16.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-16.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-17.json",
+      "path": "$.exercises[2].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-EGY-17.json",
+      "path": "$.exercises[6].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-03.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-03.json",
+      "path": "$.exercises[7].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-03.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-03.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-04.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-04.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-04.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-05.json",
+      "path": "$.exercises[1].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-05.json",
+      "path": "$.exercises[3].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-05.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-05.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-06.json",
+      "path": "$.exercises[4].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-06.json",
+      "path": "$.exercises[5].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-06.json",
+      "path": "$.exercises[9].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    },
+    {
+      "severity": "warning",
+      "code": "empty-prompt",
+      "file": "public/course/en/B2-INT-06.json",
+      "path": "$.exercises[10].items[0]",
+      "message": "Prompt missing; group instructions may supply context"
+    }
+  ]
+}

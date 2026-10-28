@@ -1,0 +1,22 @@
+{
+  "status": "Targeted corrections, not full human review",
+  "paths": [
+    "public/course/A0-resource-2.json.title",
+    "public/course/A0-resource-2.json.blocks[0].text",
+    "public/course/A0-resource-2.json.blocks[23].text",
+    "public/course/B1-B1-14.json.chapters[0].blocks[0].text",
+    "public/course/B1-B1-14.json.chapters[5].blocks[5].text",
+    "public/course/A0-resource-36.json.blocks[2].text",
+    "public/course/B1-resource-15.json.blocks[2].text",
+    "public/course/B1-resource-15.json.blocks[39].text",
+    "public/course/A0-L0-01.json.chapters[2].blocks[7].text",
+    "public/course/B1-resource-86.json.blocks[50].text",
+    "public/course/A0-resource-25.json.title",
+    "public/course/A0-resource-25.json.blocks[0].text",
+    "data/course.json.books[0].sections[2].title",
+    "data/course.json.books[0].sections[25].title",
+    "data/course.json.books[0].resources[2].title",
+    "data/course.json.books[0].resources[25].title",
+    "data/course.json.lessons[0].sections[5].title"
+  ]
+}
