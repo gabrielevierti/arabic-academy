@@ -22,5 +22,10 @@
   "deployment": "not attempted",
   "fullSpecificationComplete": false,
   "italianOnlyDeployment": true,
-  "iteration": "volume-library-study-shortcuts"
+  "iteration": "volume-library-study-shortcuts",
+  "latestLoadingFix": {
+    "build": "passed",
+    "typecheck": "passed",
+    "browser": "blocked: Chromium executable unavailable; previous browser results refer to prior iteration"
+  }
 }

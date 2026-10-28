@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28T09:01:21.158Z",
+  "date": "2026-10-28T10:26:24.939Z",
   "measurement": "Production artifact sizes, not field performance or Lighthouse scores",
   "baseline": {
     "initialJsBytes": 1125620,
@@ -7,28 +7,28 @@
   },
   "current": {
     "main": {
-      "name": "index-D9-C6vRU.js",
-      "bytes": 253235,
-      "gzip": 78576
+      "name": "index-Dg5zH6P7.js",
+      "bytes": 253871,
+      "gzip": 78737
     },
     "italianIndex": {
       "name": "course-1itrWnmV.js",
       "bytes": 417185,
       "gzip": 62344
     },
-    "initialItalianJsBytes": 670420,
-    "initialItalianJsGzipBytes": 140920
+    "initialItalianJsBytes": 671056,
+    "initialItalianJsGzipBytes": 141081
   },
   "assets": [
     {
-      "name": "alphabet-BbnuYo6r.js",
+      "name": "alphabet-BYJgF_qE.js",
       "bytes": 16223,
       "gzip": 6475
     },
     {
-      "name": "book-library-DjyTU1z8.js",
+      "name": "book-library-CZX1J0MS.js",
       "bytes": 6844,
-      "gzip": 2471
+      "gzip": 2472
     },
     {
       "name": "course-1itrWnmV.js",
@@ -36,32 +36,32 @@
       "gzip": 62344
     },
     {
-      "name": "guided-session-Def-Sgw-.js",
+      "name": "guided-session-BfOtwbBM.js",
       "bytes": 8277,
-      "gzip": 3430
+      "gzip": 3431
     },
     {
-      "name": "index-D9-C6vRU.js",
-      "bytes": 253235,
-      "gzip": 78576
+      "name": "index-D2DJ1y03.css",
+      "bytes": 52323,
+      "gzip": 12172
     },
     {
-      "name": "index-DBbFQ3qb.css",
-      "bytes": 52080,
-      "gzip": 12099
+      "name": "index-Dg5zH6P7.js",
+      "bytes": 253871,
+      "gzip": 78737
     },
     {
-      "name": "micro-lessons-C7WRQa1p.js",
+      "name": "micro-lessons-BSO5ANmw.js",
       "bytes": 4101,
-      "gzip": 1836
+      "gzip": 1837
     },
     {
-      "name": "native-course-56b9Ep-n.js",
+      "name": "native-course-CwEhFmUo.js",
       "bytes": 22639,
-      "gzip": 7845
+      "gzip": 7846
     },
     {
-      "name": "progress-NIt7AhRE.js",
+      "name": "progress-DBw-UJzg.js",
       "bytes": 9143,
       "gzip": 3570
     },

@@ -111,13 +111,14 @@ export default function App() {
   return (
     <CourseIndex>
       {(course) => (
-        <Suspense fallback={<p role="status">Caricamento / Loading…</p>}>
+        <>
           <Academy course={course} />
-        </Suspense>
+        </>
       )}
     </CourseIndex>
   );
 }
+function SectionLoading(){return <section className="panel section-loading" role="status" aria-live="polite"><span className="eyebrow">ARABIC ACADEMY</span><h2>Prepariamo questa sezione…</h2><p>Al primo accesso può servire qualche istante.</p><div className="loading-placeholder" aria-hidden="true"/><div className="loading-placeholder short" aria-hidden="true"/></section>}
 function Academy({ course }: { course: typeof import("../data/course.json") }) {
   const language = useLanguage();
 
@@ -355,6 +356,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
         <div className="content" id="main-content" tabIndex={-1}>
           <OfflineStatus flush={flush} />
           <CourseNavigation view={view} navigate={setView}/>
+          <Suspense fallback={<SectionLoading/>}>
           {view === "missing" && (
             <div className="panel">
               <h1>{t("Pagina non trovata", "Page not found")}</h1>
@@ -896,6 +898,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
               </div>
             </>
           )}
+          </Suspense>
         </div>
         <footer>
           ARABIC ACADEMY{" "}

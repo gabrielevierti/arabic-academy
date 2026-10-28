@@ -392,3 +392,16 @@ test('volume library and sidebar study shortcuts', async ({page})=>{
  await page.locator('#mobile-overflow').getByRole('button',{name:'Flashcard',exact:true}).click();
  await expect(page).toHaveURL(/flashcards/);
 });
+
+test('slow section loading keeps navigation visible',async({page})=>{
+ let release!:()=>void;
+ const gate=new Promise<void>(resolve=>release=resolve);
+ await page.route('**/assets/book-library-*.js',async route=>{await gate;await route.continue()});
+ await page.goto('/');
+ await page.locator('.sidebar').getByRole('button',{name:'Biblioteca',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Prepariamo questa sezione…'})).toBeVisible();
+ await expect(page.locator('.sidebar')).toBeVisible();
+ await expect(page.locator('.topbar')).toBeVisible();
+ release();
+ await expect(page.locator('.volume-shelf')).toBeVisible();
+});
