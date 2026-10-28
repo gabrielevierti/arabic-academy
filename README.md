@@ -1,6 +1,6 @@
 # Arabic Academy
 
-**A free, open learning path for Arabic, with lessons, exercises, and progress tracking organised in one place.**
+**A free, open learning path for Arabic, with lessons, exercises, and progress tracking organised in one place, tailored to Italian speakers**
 
 Arabic Academy grew out of a personal need: I want to learn Arabic without paying for a course or losing my way across dozens of separate resources.
 
