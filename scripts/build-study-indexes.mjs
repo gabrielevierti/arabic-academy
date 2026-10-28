@@ -61,6 +61,7 @@ for (const language of ["it", "en"]) {
             lemma,
             translation: clean(dst[ti]?.rows[ri + 1]?.[m] || row[m]),
             transliteration: tr >= 0 ? row[tr] : "",
+            root: headers.includes("radice") ? clean(row[headers.indexOf("radice")] || "") : undefined,
             source: lesson.id,
             level,
             provenance: "course-table; not independently reviewed",

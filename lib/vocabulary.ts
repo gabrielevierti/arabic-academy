@@ -6,6 +6,7 @@ export type VocabularyEntry = {
   source: string;
   level: string;
   provenance: string;
+  root?: string;
 };
 /** Lookup key only, never a claim of morphological equivalence. */
 export const lookupKey = (s: string) =>

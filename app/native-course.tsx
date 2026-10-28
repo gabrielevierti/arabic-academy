@@ -1,3 +1,4 @@
+import WordPronunciation from "./word-pronunciation";
 import { tr, useLanguage } from "../lib/i18n";
 ("use client");
 import { useEffect, useRef, useState } from "react";
@@ -7,7 +8,9 @@ import ContextualVocabulary from "./contextual-vocabulary";
 import { evaluateAnswer, withAttempt } from "../lib/grading";
 import { loadCourse } from "../lib/course-loader";
 type Any = Record<string, any>;
-export function Rich({ text = "" }: { text?: string }) {
+export function Rich({ text = "", onWord }: { text?: string; onWord?:(word:string)=>void }) {
+ function content(value:string){return onWord?value.split(/([\p{Script=Arabic}\p{Mark}]+)/gu).map((part,i)=>/\p{Script=Arabic}/u.test(part)?<button key={i} type="button" className="arabic-word" onClick={()=>onWord(part)} aria-label={"Pronuncia di "+part}>{part}</button>:part):value}
+
   return (
     <>
       {String(text)
@@ -17,11 +20,11 @@ export function Rich({ text = "" }: { text?: string }) {
         .map((p, i) =>
           p.startsWith("\u2067") ? (
             <bdi key={i} className="arabic-inline" dir="rtl" lang="ar">
-              {p.slice(1, -1)}
+              {content(p.slice(1, -1))}
             </bdi>
           ) : /\p{Script=Arabic}/u.test(p) ? (
             <bdi key={i} className="arabic-inline" dir="rtl" lang="ar">
-              {p}
+              {content(p)}
             </bdi>
           ) : (
             p
@@ -31,8 +34,10 @@ export function Rich({ text = "" }: { text?: string }) {
   );
 }
 export function Blocks({ blocks = [] }: { blocks?: any[] }) {
+ const [word,setWord]=useState("");
   return (
     <div className="native-prose">
+      {word&&<WordPronunciation key={word} word={word} onClose={()=>setWord("")}/>}
       {blocks.map((b, i) =>
         b.type === "table" ? (
           <div className="native-table-wrap" key={i}>
@@ -43,11 +48,11 @@ export function Blocks({ blocks = [] }: { blocks?: any[] }) {
                     {r.map((c, k) =>
                       j === 0 ? (
                         <th key={k} scope="col">
-                          <Rich text={c} />
+                          <Rich onWord={setWord} text={c} />
                         </th>
                       ) : (
                         <td key={k}>
-                          <Rich text={c} />
+                          <Rich onWord={setWord} text={c} />
                         </td>
                       ),
                     )}
@@ -58,19 +63,19 @@ export function Blocks({ blocks = [] }: { blocks?: any[] }) {
           </div>
         ) : b.type === "heading" ? (
           <h3 key={i}>
-            <Rich text={b.text} />
+            <Rich onWord={setWord} text={b.text} />
           </h3>
         ) : b.type === "list" ? (
           <p className="native-list" key={i}>
-            <Rich text={b.text} />
+            <Rich onWord={setWord} text={b.text} />
           </p>
         ) : b.type === "arabic" ? (
           <p className="arabic-paragraph" key={i} dir="rtl" lang="ar">
-            <Rich text={b.text} />
+            <Rich onWord={setWord} text={b.text} />
           </p>
         ) : (
           <p key={i}>
-            <Rich text={b.text} />
+            <Rich onWord={setWord} text={b.text} />
           </p>
         ),
       )}
