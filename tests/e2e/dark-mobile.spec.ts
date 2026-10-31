@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
-for(const route of ['course','alphabet','practice','review','progress','library','settings','lesson/A0-L0-01'])test('dark mobile '+route,async({page})=>{
+for(const route of ['course','alphabet','practice','review','progress','library','settings','lesson/A0-L0-01','lesson/C1-C1-04'])test('dark mobile '+route,async({page})=>{
  await page.emulateMedia({colorScheme:'dark'});
  await page.setViewportSize({width:375,height:812});
  await page.goto('/#/'+route);

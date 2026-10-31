@@ -134,6 +134,7 @@ export function validRecord(key: string, v: any): boolean {
         str(v.title, 200) &&
         str(v.content) &&
         v.custom === true &&
+        // C2 stays readable so older backups with personal C2 lessons still import.
         ["A0", "A1", "A2", "B1", "B2", "C1", "C2"].includes(v.level) &&
         Array.isArray(v.exercises) &&
         v.exercises.length === 0 &&

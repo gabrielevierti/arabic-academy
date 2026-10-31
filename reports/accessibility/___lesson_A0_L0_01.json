@@ -7,13 +7,13 @@
     "name": "axe"
   },
   "testEnvironment": {
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.0 Safari/537.36",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
     "windowWidth": 1280,
     "windowHeight": 720,
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-10-28T09:02:54.665Z",
+  "timestamp": "2026-10-31T14:52:29.253Z",
   "url": "http://127.0.0.1:4174/#/lesson/A0-L0-01",
   "toolOptions": {
     "runOnly": {
@@ -893,7 +893,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            ".sidebar > nav[aria-label=\"Navigazione principale\"]"
+            ".sidebar > nav"
           ]
         },
         {
@@ -971,9 +971,369 @@
             }
           ],
           "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            ".course-navigation"
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         }
       ]
@@ -1009,7 +1369,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            ".sidebar > nav[aria-label=\"Navigazione principale\"]"
+            ".sidebar > nav"
           ]
         },
         {
@@ -1043,9 +1403,171 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            ".course-navigation"
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         }
       ]
@@ -1171,7 +1693,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            ".sidebar > nav[aria-label=\"Navigazione principale\"]"
+            ".sidebar > nav"
           ]
         },
         {
@@ -1205,9 +1727,171 @@
             }
           ],
           "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            ".course-navigation"
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         }
       ]
@@ -1257,7 +1941,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            ".sidebar > nav[aria-label=\"Navigazione principale\"]"
+            ".sidebar > nav"
           ]
         },
         {
@@ -1319,9 +2003,297 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            ".course-navigation"
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         }
       ]
@@ -1357,7 +2329,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            ".sidebar > nav[aria-label=\"Navigazione principale\"]"
+            ".sidebar > nav"
           ]
         },
         {
@@ -1391,9 +2363,171 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            ".course-navigation"
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         }
       ]
@@ -1440,41 +2574,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"shell\" style=\"\">",
-          "target": [
-            ".shell"
           ]
         }
       ]
@@ -1533,7 +2635,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -1551,7 +2653,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -1639,99 +2741,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"nav\">",
           "target": [
             ".sidebar-bottom > .nav"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
           ]
         },
         {
@@ -1893,7 +2905,7 @@
           "impact": null,
           "html": "<button class=\"\"><span>05</span>3. Le cinque lettere</button>",
           "target": [
-            ".native-outline > button:nth-child(6)"
+            "button:nth-child(6)"
           ]
         },
         {
@@ -2110,6 +3122,256 @@
           "html": "<button class=\"\"><span>17</span>10. Criteri per passare a L0-02</button>",
           "target": [
             "button:nth-child(18)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "button-has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         },
         {
@@ -2223,7 +3485,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -2254,24 +3516,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#e2c894",
-                "bgColor": "#173f3d",
-                "contrastRatio": 7.12,
-                "fontSize": "23.3pt (31px)",
+                "fgColor": "#9adbd5",
+                "bgColor": "#192b30",
+                "contrastRatio": 9.42,
+                "fontSize": "22.5pt (30px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.12"
+              "message": "Element has sufficient color contrast of 9.42"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"brand-mark\">ع</span>",
+          "html": "<span>ع</span>",
           "target": [
-            ".brand-mark"
+            ".brand-mark > span"
           ]
         },
         {
@@ -2279,16 +3541,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#ffffff",
-                "bgColor": "#173b39",
-                "contrastRatio": 12.2,
+                "fgColor": "#edf5f5",
+                "bgColor": "#142b30",
+                "contrastRatio": 13.38,
                 "fontSize": "18.0pt (24px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 12.2"
+              "message": "Element has sufficient color contrast of 13.38"
             }
           ],
           "all": [],
@@ -2296,7 +3558,7 @@
           "impact": null,
           "html": "<span>Arabic<span class=\"brand-sub\">ACADEMY</span></span>",
           "target": [
-            ".brand > span:nth-child(2)"
+            ".brand > span"
           ]
         },
         {
@@ -2304,16 +3566,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#b8cdc7",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.31,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "6.8pt (9px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.31"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2329,16 +3591,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#b5c8c0",
-                "bgColor": "#173b39",
-                "contrastRatio": 6.96,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "6.8pt (9px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.96"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2354,16 +3616,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#f4f7f3",
-                "bgColor": "#31564e",
-                "contrastRatio": 7.56,
+                "fgColor": "#edf5f5",
+                "bgColor": "#214348",
+                "contrastRatio": 9.67,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.56"
+              "message": "Element has sufficient color contrast of 9.67"
             }
           ],
           "all": [],
@@ -2379,16 +3641,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2396,7 +3658,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -2404,16 +3666,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2421,7 +3683,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -2429,16 +3691,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d5cc",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.96,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.96"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2454,16 +3716,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2479,16 +3741,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2504,16 +3766,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2529,16 +3791,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2554,41 +3816,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
-                "fontSize": "9.8pt (13px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2604,166 +3841,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.3,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.3"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span>La tua academy <span class=\"crumb\">/</span> <b>L0-01</b></span>",
-          "target": [
-            "header > span"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#415254",
-                "bgColor": "#ffffff",
-                "contrastRatio": 8.2,
-                "fontSize": "9.0pt (12px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 8.2"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<b>L0-01</b>",
-          "target": [
-            "b"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.3,
-                "fontSize": "8.3pt (11px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.3"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "9.0pt (12px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -2779,16 +3866,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -2804,16 +3891,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#203c3b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 11.02,
-                "fontSize": "28.5pt (38px)",
+                "fgColor": "#20373a",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 11.65,
+                "fontSize": "21.8pt (29px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.02"
+              "message": "Element has sufficient color contrast of 11.65"
             }
           ],
           "all": [],
@@ -2829,16 +3916,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#496052",
-                "bgColor": "#e9f1e7",
-                "contrastRatio": 5.91,
+                "fgColor": "#516b6e",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 5.12,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.91"
+              "message": "Element has sufficient color contrast of 5.12"
             }
           ],
           "all": [],
@@ -2854,16 +3941,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#226e55",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.69,
+                "fgColor": "#226f70",
+                "bgColor": "#dcefed",
+                "contrastRatio": 4.92,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.69"
+              "message": "Element has sufficient color contrast of 4.92"
             }
           ],
           "all": [],
@@ -2879,16 +3966,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#226e55",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.69,
+                "fgColor": "#226f70",
+                "bgColor": "#dcefed",
+                "contrastRatio": 4.92,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.69"
+              "message": "Element has sufficient color contrast of 4.92"
             }
           ],
           "all": [],
@@ -2904,16 +3991,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -2929,16 +4016,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -2954,16 +4041,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#e5eee6",
-                "contrastRatio": 5.54,
+                "fgColor": "#516b6e",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 5.12,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.54"
+              "message": "Element has sufficient color contrast of 5.12"
             }
           ],
           "all": [],
@@ -2979,16 +4066,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3004,16 +4091,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3029,16 +4116,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3054,16 +4141,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#315c3e",
-                "bgColor": "#e7efe6",
-                "contrastRatio": 6.54,
+                "fgColor": "#226f70",
+                "bgColor": "#dcefed",
+                "contrastRatio": 4.92,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.54"
+              "message": "Element has sufficient color contrast of 4.92"
             }
           ],
           "all": [],
@@ -3079,16 +4166,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#e7efe6",
-                "contrastRatio": 5.6,
+                "fgColor": "#226f70",
+                "bgColor": "#dcefed",
+                "contrastRatio": 4.92,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.6"
+              "message": "Element has sufficient color contrast of 4.92"
             }
           ],
           "all": [],
@@ -3104,16 +4191,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3129,16 +4216,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3154,16 +4241,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3179,16 +4266,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3204,16 +4291,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3229,16 +4316,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3254,16 +4341,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3271,7 +4358,7 @@
           "impact": null,
           "html": "<button class=\"\"><span>05</span>3. Le cinque lettere</button>",
           "target": [
-            ".native-outline > button:nth-child(6)"
+            "button:nth-child(6)"
           ]
         },
         {
@@ -3279,16 +4366,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3304,16 +4391,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3329,16 +4416,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3354,16 +4441,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.5pt (12.65px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3379,16 +4466,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3404,16 +4491,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3429,16 +4516,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.5pt (12.65px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3454,16 +4541,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3479,16 +4566,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3504,16 +4591,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.5pt (12.65px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3529,16 +4616,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3554,16 +4641,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3579,16 +4666,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.5pt (12.65px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3604,16 +4691,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3629,16 +4716,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3654,16 +4741,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.5pt (12.65px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3679,16 +4766,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3704,16 +4791,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3729,16 +4816,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3754,16 +4841,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3779,16 +4866,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3804,16 +4891,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3829,16 +4916,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3854,16 +4941,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3879,16 +4966,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3904,16 +4991,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3929,16 +5016,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3954,16 +5041,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -3979,16 +5066,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "8.3pt (11px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -4004,16 +5091,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.11,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.11"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -4029,16 +5116,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 6.58,
+                "contrastRatio": 5.7,
                 "fontSize": "6.8pt (9px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.58"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -4054,16 +5141,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#4d6254",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 6.58,
+                "contrastRatio": 5.7,
                 "fontSize": "6.8pt (9px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.58"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -4079,16 +5166,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#294b3b",
+                "fgColor": "#20373a",
                 "bgColor": "#ffffff",
-                "contrastRatio": 9.7,
+                "contrastRatio": 12.58,
                 "fontSize": "21.8pt (29px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 9.7"
+              "message": "Element has sufficient color contrast of 12.58"
             }
           ],
           "all": [],
@@ -4104,16 +5191,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "11.3pt (15px)",
+                "contrastRatio": 5.7,
+                "fontSize": "12.0pt (16px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -4129,24 +5216,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "12.9pt (17.25px)",
+                "contrastRatio": 5.7,
+                "fontSize": "13.8pt (18.4px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ا</bdi>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            "p:nth-child(1) > bdi:nth-child(1)"
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
           ]
         },
         {
@@ -4154,24 +5241,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "12.9pt (17.25px)",
+                "contrastRatio": 5.7,
+                "fontSize": "13.8pt (18.4px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ب</bdi>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
           "target": [
-            "p:nth-child(1) > bdi:nth-child(2)"
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
           ]
         },
         {
@@ -4179,24 +5266,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "12.9pt (17.25px)",
+                "contrastRatio": 5.7,
+                "fontSize": "13.8pt (18.4px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ت</bdi>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
           "target": [
-            "bdi:nth-child(3)"
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
           ]
         },
         {
@@ -4204,24 +5291,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "12.9pt (17.25px)",
+                "contrastRatio": 5.7,
+                "fontSize": "13.8pt (18.4px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ث</bdi>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
           "target": [
-            "bdi:nth-child(4)"
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
           ]
         },
         {
@@ -4229,24 +5316,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "12.9pt (17.25px)",
+                "contrastRatio": 5.7,
+                "fontSize": "13.8pt (18.4px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ن</bdi>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
           "target": [
-            "bdi:nth-child(5)"
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         },
         {
@@ -4254,24 +5341,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#213b2a",
-                "bgColor": "#f6f8f2",
-                "contrastRatio": 11.38,
+                "fgColor": "#20373a",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 11.29,
                 "fontSize": "19.8pt (26.45px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.38"
+              "message": "Element has sufficient color contrast of 11.29"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ا   ب   ت   ث   ن</bdi>",
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
           "target": [
-            ".arabic-paragraph > bdi"
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
           ]
         },
         {
@@ -4279,16 +5366,116 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#20373a",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 11.29,
+                "fontSize": "19.8pt (26.45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20373a",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 11.29,
+                "fontSize": "19.8pt (26.45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20373a",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 11.29,
+                "fontSize": "19.8pt (26.45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20373a",
+                "bgColor": "#edf4f4",
+                "contrastRatio": 11.29,
+                "fontSize": "19.8pt (26.45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "11.3pt (15px)",
+                "contrastRatio": 5.7,
+                "fontSize": "12.0pt (16px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -4304,16 +5491,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#2d5740",
+                "fgColor": "#226f70",
                 "bgColor": "#ffffff",
-                "contrastRatio": 8.23,
+                "contrastRatio": 5.87,
                 "fontSize": "13.5pt (18px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 8.23"
+              "message": "Element has sufficient color contrast of 5.87"
             }
           ],
           "all": [],
@@ -4329,16 +5516,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "11.3pt (15px)",
+                "contrastRatio": 5.7,
+                "fontSize": "12.0pt (16px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -4354,16 +5541,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#45564e",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 7.79,
-                "fontSize": "11.3pt (15px)",
+                "contrastRatio": 5.7,
+                "fontSize": "12.0pt (16px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.79"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -4379,16 +5566,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#203c3b",
+                "fgColor": "#20373a",
                 "bgColor": "#ffffff",
-                "contrastRatio": 11.85,
+                "contrastRatio": 12.58,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.85"
+              "message": "Element has sufficient color contrast of 12.58"
             }
           ],
           "all": [],
@@ -4424,16 +5611,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#203c3b",
+                "fgColor": "#20373a",
                 "bgColor": "#ffffff",
-                "contrastRatio": 11.85,
+                "contrastRatio": 12.58,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.85"
+              "message": "Element has sufficient color contrast of 12.58"
             }
           ],
           "all": [],
@@ -4450,15 +5637,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#ffffff",
-                "bgColor": "#235e55",
-                "contrastRatio": 7.49,
+                "bgColor": "#226f70",
+                "contrastRatio": 5.87,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.49"
+              "message": "Element has sufficient color contrast of 5.87"
             }
           ],
           "all": [],
@@ -4474,22 +5661,22 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.85,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "6.0pt (8px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.85"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<footer>ARABIC ACADEMY <span>Il tuo percorso. Una parola alla volta.</span></footer>",
+          "html": "<footer>",
           "target": [
             "footer"
           ]
@@ -4499,16 +5686,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.85,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.85"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -4517,6 +5704,81 @@
           "html": "<span>Il tuo percorso. Una parola alla volta.</span>",
           "target": [
             "footer > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer-links\">© 2026 Gabriele Vierti · <a href=\"https://github.com/gabrielevierti\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub di Gabriele Vierti</a> · <a href=\"https://github.com/gabrielevierti/arabic-academy\" target=\"_blank\" rel=\"noopener noreferrer\">Repository del sito</a></div>",
+          "target": [
+            ".footer-links"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub di Gabriele Vierti</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti/arabic-academy\" target=\"_blank\" rel=\"noopener noreferrer\">Repository del sito</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
           ]
         }
       ]
@@ -4553,7 +5815,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -4592,7 +5854,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -4631,7 +5893,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -4682,7 +5944,7 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"brand\" href=\"#\"><span class=\"brand-mark\">ع</span><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
+          "html": "<a class=\"brand\" href=\"#\"><div class=\"brand-mark\"><span>ع</span></div><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
           "target": [
             ".brand"
           ]
@@ -4711,6 +5973,58 @@
           "html": "<a href=\"#main-content\" class=\"skip-link\">Vai al contenuto</a>",
           "target": [
             ".skip-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub di Gabriele Vierti</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti/arabic-academy\" target=\"_blank\" rel=\"noopener noreferrer\">Repository del sito</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
           ]
         }
       ]
@@ -4803,7 +6117,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -4821,7 +6135,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -4909,99 +6223,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"nav\">",
           "target": [
             ".sidebar-bottom > .nav"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
           ]
         },
         {
@@ -5163,7 +6387,7 @@
           "impact": null,
           "html": "<button class=\"\"><span>05</span>3. Le cinque lettere</button>",
           "target": [
-            ".native-outline > button:nth-child(6)"
+            "button:nth-child(6)"
           ]
         },
         {
@@ -5380,6 +6604,186 @@
           "html": "<button class=\"\"><span>17</span>10. Criteri per passare a L0-02</button>",
           "target": [
             "button:nth-child(18)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            "p:nth-child(1) > bdi:nth-child(1) > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            "bdi:nth-child(2) > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            "bdi:nth-child(3) > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            "bdi:nth-child(4) > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            "bdi:nth-child(5) > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         },
         {
@@ -5593,7 +6997,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"brand\" href=\"#\"><span class=\"brand-mark\">ع</span><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
+          "html": "<a class=\"brand\" href=\"#\"><div class=\"brand-mark\"><span>ع</span></div><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
           "target": [
             ".brand"
           ]
@@ -5659,7 +7063,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -5691,7 +7095,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -5849,38 +7253,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 192,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (192px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"nav\">",
           "target": [
             ".sidebar-bottom > .nav"
@@ -5892,12 +7264,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 145.4,
+                "width": 131.4,
                 "height": 53
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (145.4px by 53px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (131.4px by 53px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -5924,140 +7296,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 145.7,
+                "width": 107.8,
                 "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (145.7px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 132.7,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (132.7px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 85,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (85px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 172.2,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (172.2px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 116.6,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (116.6px by 44px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (107.8px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6084,12 +7328,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 117.9,
+                "width": 105.2,
                 "height": 53
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (117.9px by 53px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (105.2px by 53px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6116,12 +7360,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 152.1,
+                "width": 141.5,
                 "height": 53
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (152.1px by 53px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (141.5px by 53px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6148,12 +7392,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 154.3,
+                "width": 139.4,
                 "height": 53
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (154.3px by 53px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (139.4px by 53px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6181,11 +7425,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6213,11 +7457,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6245,11 +7489,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 61
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 61px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6277,11 +7521,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6309,11 +7553,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6331,7 +7575,7 @@
           "impact": null,
           "html": "<button class=\"\"><span>05</span>3. Le cinque lettere</button>",
           "target": [
-            ".native-outline > button:nth-child(6)"
+            "button:nth-child(6)"
           ]
         },
         {
@@ -6501,11 +7745,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6533,11 +7777,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6565,11 +7809,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6597,11 +7841,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6629,11 +7873,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6661,11 +7905,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6693,11 +7937,11 @@
               "data": {
                 "minSize": 24,
                 "width": 235,
-                "height": 44.5
+                "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (235px by 44.5px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (235px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6716,6 +7960,144 @@
           "html": "<button class=\"\"><span>17</span>10. Criteri per passare a L0-02</button>",
           "target": [
             "button:nth-child(18)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 24,
+                "minOffset": 24
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ا\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 28.9,
+                "height": 50.3
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Control has sufficient size (28.9px by 50.3px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 24,
+                "minOffset": 24
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ب\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 28.9,
+                "height": 50.3
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Control has sufficient size (28.9px by 50.3px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 24,
+                "minOffset": 24
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ت\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 28.9,
+                "height": 50.3
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Control has sufficient size (28.9px by 50.3px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 24,
+                "minOffset": 24
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ث\"][type=\"button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 24,
+                "minOffset": 24
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button>",
+          "target": [
+            ".arabic-paragraph > bdi > .arabic-word[aria-label=\"Pronuncia di ن\"][type=\"button\"]"
           ]
         },
         {
@@ -6766,12 +8148,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 178.3,
+                "width": 158.7,
                 "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (178.3px by 44px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (158.7px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -6916,7 +8298,7 @@
             }
           ],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ا</bdi>",
+          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\"><button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ا\">ا</button></bdi>",
           "target": [
             "p:nth-child(1) > bdi:nth-child(1)"
           ]
@@ -6934,7 +8316,7 @@
             }
           ],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ب</bdi>",
+          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\"><button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ب\">ب</button></bdi>",
           "target": [
             "p:nth-child(1) > bdi:nth-child(2)"
           ]
@@ -6952,7 +8334,7 @@
             }
           ],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ت</bdi>",
+          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\"><button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ت\">ت</button></bdi>",
           "target": [
             "bdi:nth-child(3)"
           ]
@@ -6970,7 +8352,7 @@
             }
           ],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ث</bdi>",
+          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\"><button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ث\">ث</button></bdi>",
           "target": [
             "bdi:nth-child(4)"
           ]
@@ -6988,7 +8370,7 @@
             }
           ],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ن</bdi>",
+          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\"><button type=\"button\" class=\"arabic-word\" aria-label=\"Pronuncia di ن\">ن</button></bdi>",
           "target": [
             "bdi:nth-child(5)"
           ]
@@ -7006,7 +8388,7 @@
             }
           ],
           "impact": null,
-          "html": "<p class=\"arabic-paragraph\" dir=\"rtl\" lang=\"ar\"><bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ا   ب   ت   ث   ن</bdi></p>",
+          "html": "<p class=\"arabic-paragraph\" dir=\"rtl\" lang=\"ar\">",
           "target": [
             ".arabic-paragraph"
           ]
@@ -7024,7 +8406,7 @@
             }
           ],
           "impact": null,
-          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">ا   ب   ت   ث   ن</bdi>",
+          "html": "<bdi class=\"arabic-inline\" dir=\"rtl\" lang=\"ar\">",
           "target": [
             ".arabic-paragraph > bdi"
           ]

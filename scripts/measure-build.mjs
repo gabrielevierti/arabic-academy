@@ -27,5 +27,5 @@ fs.writeFileSync(
   JSON.stringify(report, null, 2) + "\n",
 );
 console.log(JSON.stringify(report.current));
-if (main.bytes + it.bytes > 800000)
-  throw Error("Initial JS exceeds 800 kB budget");
+if (main.bytes + it.bytes > 450000)
+  throw Error("Initial JS exceeds 450 kB budget");

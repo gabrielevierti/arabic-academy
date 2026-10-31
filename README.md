@@ -19,7 +19,7 @@ Così ho iniziato a costruire lo strumento che avrei voluto trovare. Arabic Acad
 
 ## Cosa offre
 
-- Un percorso di apprendimento organizzato per livelli, così sai da dove iniziare e come procedere.
+- Un percorso di apprendimento organizzato per livelli, dall'alfabeto (A0) al livello C1 «Competenza professionale», così sai da dove iniziare e come procedere.
 - Lezioni disponibili direttamente sul sito, con spiegazioni, esempi e tabelle.
 - Esercizi interattivi, con correzione automatica per le risposte vincolate e modelli di riferimento per le risposte aperte.
 - Alfabeto interattivo, con le 28 lettere di base, le forme di congiunzione, parole di esempio, sintesi vocale del dispositivo e un quiz di cinque domande.
@@ -28,13 +28,24 @@ Così ho iniziato a costruire lo strumento che avrei voluto trovare. Arabic Acad
 - Monitoraggio chiaro dei progressi, inclusi tempo di studio attivo, passi di lettura, domande a cui si è risposto, traguardi e stime trasparenti per il livello successivo.
 - Note e lezioni personali, per adattare lo studio alle tue esigenze.
 - Progressi salvati nel browser, con esportazione e importazione di backup.
-- Il corso inizia con il sistema di scrittura e l'arabo standard moderno (MSA). L'uso pratico e professionale è la direzione del progetto: questo non significa che ogni lezione sia già specializzata né che il corso da solo ti prepari a una professione.
+- Il corso inizia con il sistema di scrittura e l'arabo standard moderno (MSA) e, con il livello C1, arriva ai testi professionali: rapporti, comunicati diplomatici, testi giuridici ed economici, retorica, sintesi di più fonti, scrittura formale e briefing orale, con le tracce di egiziano e di darija marocchina. L'uso pratico e professionale è la direzione del progetto: questo non significa che il corso da solo ti prepari a una professione.
 
 ## A chi è rivolto
 
 A chiunque voglia iniziare a imparare l'arabo, a chi ha già raccolto materiali ma fatica a organizzarli e a chi cerca un posto gratuito dove studiare con costanza.
 
 Non devi condividere gli obiettivi professionali o personali che mi hanno portato a costruirlo. Se ti aiuta a imparare qualcosa, il progetto sta già facendo ciò per cui è stato creato.
+
+## Per chi sviluppa
+
+```sh
+npm ci
+npm run dev        # sito in locale
+npm test           # test unitari e dei contenuti
+npm run build      # versione pubblicabile in dist/
+```
+
+I volumi in PDF si importano con gli script in `scripts/volume-import/` (vedi il README della cartella): il testo arabo viene ricostruito dai glifi del PDF e rimesso in ordine logico, gli esercizi vengono collegati alle soluzioni.
 
 ## Feedback, correzioni e contributi
 

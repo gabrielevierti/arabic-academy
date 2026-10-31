@@ -11,6 +11,7 @@ function walk(x, f, p = "$") {
   else if (x && typeof x === "object")
     for (const [k, v] of Object.entries(x)) walk(v, f, `${p}.${k}`);
 }
+const ENGLISH_ARCHIVE = ["A0", "A1", "A2", "B1", "B2"];
 for (const lang of ["it", "en"]) {
   const root = `public/course/${lang === "en" ? "en/" : ""}`,
     index = read(`data/course${lang === "en" ? ".en" : ""}.json`),
@@ -25,7 +26,7 @@ for (const lang of ["it", "en"]) {
         "Repeated lesson identifier",
       );
     ids.add(l.id);
-    if (!["A0", "A1", "A2", "B1", "B2", "C1", "C2"].includes(l.level))
+    if (!["A0", "A1", "A2", "B1", "B2", "C1"].includes(l.level))
       issue("error", "level", root, l.id, "Invalid level");
     if (!fs.existsSync(root + l.id + ".json"))
       issue("error", "reference", root, l.id, "Missing document");
@@ -59,6 +60,8 @@ for (const lang of ["it", "en"]) {
               path + `[${i}]`,
               "Unequal table row lengths; editorial review",
             );
+        } else if (b.type === "exercise") {
+          if (!b.id) issue("error", "exercise-link", filename, path + `[${i}]`, "Exercise link without id");
         } else if (!b.text?.trim())
           issue(
             "warning",
@@ -121,7 +124,9 @@ for (const lang of ["it", "en"]) {
               qp,
               "Prompt missing; group instructions may supply context",
             );
-          if (!q.explanation?.trim())
+          // the activity's own solution blocks are shown when an item has no text of its own
+          const groupSolution = g.solutionBlocks?.length > 0;
+          if (!q.explanation?.trim() && !groupSolution)
             issue(
               "warning",
               "explanation",
@@ -129,7 +134,7 @@ for (const lang of ["it", "en"]) {
               qp,
               "No individual explanation",
             );
-          if (q.mode === "open" && !q.model?.trim())
+          if (q.mode === "open" && !q.model?.trim() && !groupSolution)
             issue(
               "warning",
               "model",
@@ -185,7 +190,8 @@ for (const lang of ["it", "en"]) {
       if (/\ufffd/.test(s))
         issue("error", "unicode", filename, p, "Replacement character");
     });
-    if (lang === "it") {
+    // English is an archive of A0–B2 only: the product is Italian-only.
+    if (lang === "it" && ENGLISH_ARCHIVE.some((level) => file.startsWith(level + "-"))) {
       const enPath = `public/course/en/${file}`;
       if (!fs.existsSync(enPath))
         issue(

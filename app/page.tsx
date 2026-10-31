@@ -12,6 +12,7 @@ import CourseIndex from "./course-index";
 import { routeHash, parseRoute } from "../lib/routing";
 import { useProgressStore } from "../lib/use-progress-store";
 import BackupManager from "./backup-manager";
+import { LEVELS, LEVEL_NAMES, MAIN_TRACKS, levelOf, type Level } from "../lib/levels";
 
 const Alphabet = lazy(() => import("./alphabet"));
 const Progress = lazy(() => import("./progress"));
@@ -25,16 +26,7 @@ const NativeResource = lazy(() =>
   import("./native-course").then((m) => ({ default: m.NativeResource })),
 );
 
-const levels = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
-const names = [
-  "Alfabetizzazione",
-  "Le fondamenta",
-  "Autonomia elementare",
-  "Competenza intermedia",
-  "Competenza operativa",
-  "Competenza professionale",
-  "Padronanza",
-];
+const levels: readonly string[] = LEVELS;
 const day = () => new Date().toLocaleDateString("sv-SE");
 const normalize = (s: string) =>
   s
@@ -421,10 +413,10 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
               </div>
               <div className="section-heading">
                 <h2>
-                  {level} · {tr(names[levels.indexOf(level)])}
+                  {level} · {tr(LEVEL_NAMES[level as Level] || "")}
                 </h2>
                 <span className="muted">
-                  {lessons.filter((l) => l.level === level).length}{" "}
+                  {lessons.filter((l) => levelOf(l) === level).length}{" "}
                   {tr(" lezioni")}
                 </span>
               </div>
@@ -432,7 +424,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                 {lessons
                   .filter(
                     (l) =>
-                      l.level === level &&
+                      levelOf(l) === level &&
                       (l.title + " " + l.code)
                         .toLowerCase()
                         .includes(search.toLowerCase()),
@@ -460,7 +452,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                         <small>
                           {l.code}
                           {l.track &&
-                          !["L0", "A1", "A2", "B1", "B2"].includes(l.track)
+                          !MAIN_TRACKS.includes(l.track)
                             ? tr(" · Traccia complementare")
                             : ""}
                         </small>
@@ -482,7 +474,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                     </button>
                   ))}
               </div>
-              {!lessons.some((l) => l.level === level) && (
+              {!lessons.some((l) => levelOf(l) === level) && (
                 <div className="empty panel">
                   <span className="large-arabic">ق</span>
                   <h2>{tr("Il prossimo capitolo è tuo.")}</h2>
@@ -515,7 +507,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
               put={put}
               onBack={() => {
                 setView("course");
-                setLevel(selected.level);
+                setLevel(levelOf(selected));
               }}
               onNext={() => {
                 const next =
@@ -625,7 +617,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                     }}
                   >
                     <span className="eyebrow">
-                      {activeCard.level} ·{" "}
+                      {levelOf(activeCard)} ·{" "}
                       {flip ? tr("RISPOSTA") : tr("PROVA A RICORDARE")}
                     </span>
                     <div dir="auto">
@@ -702,7 +694,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                         <b dir="auto">{c.front}</b>
                         <span dir="auto">{c.back}</span>
                         <small>
-                          {c.level} {tr(" · prossimo ripasso ")}
+                          {levelOf(c)} {tr(" · prossimo ripasso ")}
                           {c.due}
                         </small>
                         <button
@@ -741,7 +733,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
                   {customExercises.map((q) => (
                     <div className="panel quiz" key={q.key}>
                       <span className="eyebrow">
-                        {q.level} {tr(" · RISPOSTA BREVE")}
+                        {levelOf(q)} {tr(" · RISPOSTA BREVE")}
                       </span>
                       <h2 dir="auto">{q.question}</h2>
                       <form
@@ -901,7 +893,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
             <form onSubmit={submitForm}>
               <label>
                 {tr("Livello")}
-                <select name="level" defaultValue={selected?.level || level}>
+                <select name="level" defaultValue={levelOf(selected || {}) || level}>
                   {levels.map((l) => (
                     <option key={l}>{l}</option>
                   ))}

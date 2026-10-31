@@ -2,6 +2,9 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 const read = (p) => JSON.parse(readFileSync(p, "utf8"));
+// The English archive covers A0–B2; later volumes are published in Italian only.
+const archived = (n) =>
+  ["A0", "A1", "A2", "B1", "B2"].some((l) => n.startsWith(l + "-"));
 const arabic = (s) =>
   (
     s.match(
@@ -56,14 +59,22 @@ function compare(a, b, path = "", key = "") {
 }
 test("Every English document preserves Arabic, IDs, question modes, and course structure", () => {
   for (const name of readdirSync("public/course").filter((n) =>
-    n.endsWith(".json"),
+    n.endsWith(".json") && archived(n),
   )) {
     const it = read("public/course/" + name),
       en = read("public/course/en/" + name);
     assert.equal(en.contentLanguage, "en");
     compare(it, en, name);
   }
-  compare(read("data/course.json"), read("data/course.en.json"), "index");
+  const index = read("data/course.json");
+  compare(
+    {
+      books: index.books.filter((b) => archived(b.id + "-")),
+      lessons: index.lessons.filter((l) => archived(l.id)),
+    },
+    read("data/course.en.json"),
+    "index",
+  );
 });
 test("English opening lesson includes translated instruction and answers", () => {
   const lesson = read("public/course/en/A0-L0-01.json");
@@ -91,8 +102,8 @@ test("Transliteration columns are kept verbatim, including unaccented Latin spel
     for (const key of Object.keys(it))
       if (key !== "answers") walk(it[key], en[key]);
   }
-  for (const name of readdirSync("public/course").filter((n) =>
-    n.endsWith(".json"),
+  for (const name of readdirSync("public/course").filter(
+    (n) => n.endsWith(".json") && archived(n),
   ))
     walk(read("public/course/" + name), read("public/course/en/" + name));
 });
