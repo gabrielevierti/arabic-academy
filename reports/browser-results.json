@@ -1,14 +1,12 @@
 {
   "config": {
     "argv": [
-      "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
-      "/workspace/scratch/caa24bedb7ad/arabic-academy-2/node_modules/.bin/playwright",
-      "test",
-      "--grep",
-      "slow section"
+      "/opt/node22/bin/node",
+      "/home/claude/src/work/arabic-academy/node_modules/.bin/playwright",
+      "test"
     ],
-    "configFile": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/playwright.config.ts",
-    "rootDir": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/tests/e2e",
+    "configFile": "/home/claude/src/work/arabic-academy/playwright.config.ts",
+    "rootDir": "/home/claude/src/work/arabic-academy/tests/e2e",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -24,7 +22,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/test-results",
+        "outputDir": "/home/claude/src/work/arabic-academy/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -32,7 +30,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/tests/e2e",
+        "testDir": "/home/claude/src/work/arabic-academy/tests/e2e",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -44,15 +42,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/test-results",
+        "outputDir": "/home/claude/src/work/arabic-academy/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "chromium",
-        "testDir": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/tests/e2e",
-        "snapshotDir": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/tests/e2e",
+        "testDir": "/home/claude/src/work/arabic-academy/tests/e2e",
+        "snapshotDir": "/home/claude/src/work/arabic-academy/tests/e2e",
         "testIgnore": [],
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
         "timeout": 30000,
@@ -60,7 +58,7 @@
           "baseURL": "http://127.0.0.1:4174",
           "headless": true,
           "launchOptions": {
-            "executablePath": "/tmp/academy-browser/chromium",
+            "executablePath": "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome",
             "args": [
               "--no-sandbox",
               "--disable-dev-shm-usage",
@@ -114,8 +112,8 @@
       "line": 0,
       "specs": [
         {
-          "title": "slow section loading keeps navigation visible",
-          "ok": false,
+          "title": "course exercise error, retry and language-independent deep link",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -128,54 +126,1377 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 5,
-                  "error": {
-                    "message": "Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /tmp/academy-browser/chromium",
-                    "stack": "Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /tmp/academy-browser/chromium"
-                  },
-                  "errors": [
-                    {
-                      "message": "Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /tmp/academy-browser/chromium"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 2625,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-28T10:26:27.950Z",
+                  "startTime": "2026-10-31T14:51:40.088Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/test-results/academy-slow-section-loading-keeps-navigation-visible-chromium/error-context.md"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/workspace/scratch/caa24bedb7ad/arabic-academy-2/test-results/academy-slow-section-loading-keeps-navigation-visible-chromium/trace.zip"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-15481024e8c15300cddd",
+          "file": "academy.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "v1 backup preview, atomic merge, v2 export and preserved unknown record",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1408,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:43.005Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-e836d38884cf16ac0e83",
+          "file": "academy.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "responsive navigation and alphabet at 320px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1296,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:44.436Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-a93dc66db406196be0e4",
+          "file": "academy.spec.ts",
+          "line": 72,
+          "column": 3
+        },
+        {
+          "title": "responsive navigation and alphabet at 375px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1254,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:45.765Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-33d3cc11358f2fd05ed2",
+          "file": "academy.spec.ts",
+          "line": 72,
+          "column": 3
+        },
+        {
+          "title": "responsive navigation and alphabet at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1258,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:47.137Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-80ad1f1be55c3758bdab",
+          "file": "academy.spec.ts",
+          "line": 72,
+          "column": 3
+        },
+        {
+          "title": "responsive navigation and alphabet at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:48.425Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-2c43beca4b1b79cd95b1",
+          "file": "academy.spec.ts",
+          "line": 72,
+          "column": 3
+        },
+        {
+          "title": "responsive navigation and alphabet at 1024px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1157,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:49.725Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-3fbc2adc785e42fe1bda",
+          "file": "academy.spec.ts",
+          "line": 72,
+          "column": 3
+        },
+        {
+          "title": "responsive navigation and alphabet at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1554,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:50.949Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-bba07d3d5d285dc32f6b",
+          "file": "academy.spec.ts",
+          "line": 72,
+          "column": 3
+        },
+        {
+          "title": "keyboard modal dismissal restores focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 924,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:52.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-838659fa823bb56dd68c",
+          "file": "academy.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "unavailable content has retry navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2056,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:53.457Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-16d3bcf1d47701475c7c",
+          "file": "academy.spec.ts",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "restricted storage does not pretend to save progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 625,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:55.550Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-a4e117596a06d1425f2a",
+          "file": "academy.spec.ts",
+          "line": 144,
+          "column": 1
+        },
+        {
+          "title": "mistake review persists correction and schedules tomorrow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3285,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:56.185Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-d0dd0852ba3b55510cc3",
+          "file": "academy.spec.ts",
+          "line": 162,
+          "column": 1
+        },
+        {
+          "title": "offline shell and cached lesson survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1865,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:51:59.483Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-aabefd1c27629fc23583",
+          "file": "academy.spec.ts",
+          "line": 197,
+          "column": 1
+        },
+        {
+          "title": "first-load JavaScript budget and selected language only",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 662,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:01.361Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-a5c4f7dd74fe1fe69c6d",
+          "file": "academy.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "quota failures remain visible and pending data is exportable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1003,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:02.036Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-8132e9be2d66ed61cd34",
+          "file": "academy.spec.ts",
+          "line": 236,
+          "column": 1
+        },
+        {
+          "title": "committed settings propagate across tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1419,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:03.048Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-d663cebe3072bbce5ffb",
+          "file": "academy.spec.ts",
+          "line": 257,
+          "column": 1
+        },
+        {
+          "title": "daily goal controls session and a short block extends without resetting timer",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2181,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:04.475Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-d16a760c2785b14f149e",
+          "file": "academy.spec.ts",
+          "line": 269,
+          "column": 1
+        },
+        {
+          "title": "local recorder handles stop, delete and navigation without double-stop errors (mock media)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1469,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:06.684Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-cdcd1f2f62b9de993bd1",
+          "file": "academy.spec.ts",
+          "line": 293,
+          "column": 1
+        },
+        {
+          "title": "Italian course hub connects resume, exercises and corrections",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1585,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:08.162Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-9dee437e5ef95b0e5757",
+          "file": "academy.spec.ts",
+          "line": 344,
+          "column": 1
+        },
+        {
+          "title": "volume library and sidebar study shortcuts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3149,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:09.756Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-c2325a45722c148f28ce",
+          "file": "academy.spec.ts",
+          "line": 359,
+          "column": 1
+        },
+        {
+          "title": "slow section loading keeps navigation visible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1199,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:12.949Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "8cf18ea9dd1be77d180b-a2a67de538ddbb6857ef",
           "file": "academy.spec.ts",
-          "line": 396,
+          "line": 382,
           "column": 1
+        },
+        {
+          "title": "appearance settings persist and obsolete navigation is removed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2659,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:14.183Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-01d7c9781c89f6ea8be3",
+          "file": "academy.spec.ts",
+          "line": 395,
+          "column": 1
+        },
+        {
+          "title": "C1 volume: level tabs, right-to-left dialogue and exercise links",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1987,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:16.854Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8cf18ea9dd1be77d180b-21acf720baec330634c5",
+          "file": "academy.spec.ts",
+          "line": 412,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "accessibility.spec.ts",
+      "file": "accessibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "accessibility /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1914,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:18.996Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-125aa865d33aa529befb",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessibility /#/alphabet",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2157,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:20.931Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-698391499904b3720c07",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessibility /#/library",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1743,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:23.152Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-6a26009a95fcec235a9c",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessibility /#/flashcards",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:24.910Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-f64c4f363854b19cec51",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessibility /#/settings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1628,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:26.425Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-3f8185622b34b0e66df8",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessibility /#/lesson/A0-L0-01",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1760,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:28.120Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-26c0727a5c28e81a743a",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessibility /#/lesson/C1-C1-01",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2659,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:29.905Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-536ba27eb74a8135cdc3",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "dark settings contrast",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1767,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:32.611Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-c84a36011f0b0fd7da60",
+          "file": "accessibility.spec.ts",
+          "line": 31,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "dark-mobile.spec.ts",
+      "file": "dark-mobile.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "dark mobile course",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2154,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:34.417Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-e805fedc524c16972ec8",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile alphabet",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2431,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:36.582Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-501c6dc29c776a4c8515",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile practice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2078,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:39.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-b7bb622776ad63f60067",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile review",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1875,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:41.144Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-c1a8b168330316da1804",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2196,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:43.071Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-a4fe81fcf93db86c3905",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile library",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2019,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:45.298Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-825a94e0a1ea59034671",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile settings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:47.341Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-c4af9763b57c433c3102",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile lesson/A0-L0-01",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2151,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:49.331Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-1d29c2f0f18c5276041a",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
+        },
+        {
+          "title": "dark mobile lesson/C1-C1-04",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2244,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T14:52:51.491Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f38db03621b9deb2db5-9d29cedf3a9655d1f48e",
+          "file": "dark-mobile.spec.ts",
+          "line": 4,
+          "column": 130
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-28T10:26:25.907Z",
-    "duration": 2221.0480000000002,
-    "expected": 0,
+    "startTime": "2026-10-31T14:51:38.466Z",
+    "duration": 75514.94600000001,
+    "expected": 40,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

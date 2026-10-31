@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import fs from "node:fs";
-for (const route of ["/", "/#/alphabet", "/#/library", "/#/flashcards", "/#/settings", "/#/lesson/A0-L0-01"])
+for (const route of ["/", "/#/alphabet", "/#/library", "/#/flashcards", "/#/settings", "/#/lesson/A0-L0-01", "/#/lesson/C1-C1-01"])
   test("accessibility " + route, async ({ page }) => {
     await page.goto(route);
     await expect(page.locator("#main-content")).toBeVisible();

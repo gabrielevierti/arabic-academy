@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLanguage } from "../lib/i18n";
 import { errorQueue, localDay, streak } from "../lib/learning";
+import { LEVELS, levelOf } from "../lib/levels";
 export function Dashboard({
   data,
   current,
@@ -230,7 +231,7 @@ export function PracticeHub({
       </div>
       <div className="filters">
         <div className="tabs">
-          {["A0", "A1", "A2", "B1", "B2"].map((l) => (
+          {LEVELS.map((l) => (
             <button
               key={l}
               className={l === level ? "chosen" : ""}
@@ -251,7 +252,7 @@ export function PracticeHub({
         {lessons
           .filter(
             (l) =>
-              l.level === level &&
+              levelOf(l) === level &&
               !l.custom &&
               l.nativeItems > 0 &&
               (l.title + " " + l.code)
@@ -292,7 +293,7 @@ export function PracticeHub({
       </div>
       {!lessons.some(
         (l) =>
-          l.level === level &&
+          levelOf(l) === level &&
           !l.custom &&
           l.nativeItems > 0 &&
           (l.title + " " + l.code).toLowerCase().includes(query.toLowerCase()),

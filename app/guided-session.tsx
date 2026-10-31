@@ -84,8 +84,9 @@ export default function GuidedSession({
         if (!review) {
           const d = docs.get(s.current.id);
           const read = s.data["progress:" + s.current.id]?.read || [];
+          // Chapters that only point to exercises are covered by the practice step.
           const chapter = d.chapters.findIndex(
-            (_: any, i: number) => !read.includes(i),
+            (c: any, i: number) => !read.includes(i) && !c.exercisesOnly,
           );
           if (chapter >= 0)
             tasks.push({ kind: "learn", chapter, lessonId: s.current.id });

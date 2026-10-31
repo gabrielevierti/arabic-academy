@@ -108,7 +108,11 @@ test("New study records round-trip through backup validation", () => {
 });
 test("Every core lesson has a source duration and positive content counts", () => {
   const meta = JSON.parse(readFileSync("data/study-metadata.json"));
-  assert.equal(Object.keys(meta).length, 135);
+  const course = JSON.parse(readFileSync("data/course.json"));
+  assert.deepEqual(
+    Object.keys(meta).sort(),
+    course.lessons.map((l) => l.id).sort(),
+  );
   for (const value of Object.values(meta)) {
     assert(value.hours[0] > 0);
     assert(value.hours[1] >= value.hours[0]);

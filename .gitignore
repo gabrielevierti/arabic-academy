@@ -8,3 +8,5 @@ __pycache__/
 *.pyc
 *.argosmodel
 translation-cache*.json
+test-results/
+reports/dark-mobile/

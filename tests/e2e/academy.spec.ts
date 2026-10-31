@@ -230,7 +230,8 @@ test("first-load JavaScript budget and selected language only", async ({
   const js = resources.filter(
     (r) => r.name.includes("/assets/") && r.name.endsWith(".js"),
   );
-  expect(js.reduce((n, r) => n + r.size, 0)).toBeLessThan(800000);
+  // The bundled course index carries only what the interface reads.
+  expect(js.reduce((n, r) => n + r.size, 0)).toBeLessThan(450000);
 });
 test("quota failures remain visible and pending data is exportable", async ({
   page,
@@ -357,7 +358,7 @@ test("Italian course hub connects resume, exercises and corrections", async ({ p
 
 test('volume library and sidebar study shortcuts', async ({page})=>{
  await page.goto('/#/library');
- await expect(page.locator('.volume-shelf .book-card')).toHaveCount(5);
+ await expect(page.locator('.volume-shelf .book-card')).toHaveCount(6);
  await page.locator('.volume-shelf .book-card').first().click();
  await expect(page.getByRole('region',{name:'Indice del volume A0'})).toBeVisible();
  await page.locator('.volume-index .volume-entry').first().click();
@@ -371,7 +372,7 @@ test('volume library and sidebar study shortcuts', async ({page})=>{
  await expect(page.locator('.volume-shelf')).toBeVisible();
  await page.screenshot({path:'reports/screenshots/library-desktop.png',fullPage:true});
  await page.setViewportSize({width:320,height:740});
- await expect(page.locator('.volume-shelf .book-card')).toHaveCount(5);
+ await expect(page.locator('.volume-shelf .book-card')).toHaveCount(6);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.getByRole('button',{name:/Altro/}).click();
  await page.locator('#mobile-overflow').getByRole('button',{name:'Flashcard',exact:true}).click();
@@ -406,4 +407,27 @@ test('appearance settings persist and obsolete navigation is removed',async({pag
  await page.screenshot({path:'reports/screenshots/settings-dark.png',fullPage:true});
  await page.getByLabel('Tema del sito').selectOption('light');
  await expect(page.locator('html')).toHaveAttribute('data-theme','light');
+});
+
+test('C1 volume: level tabs, right-to-left dialogue and exercise links', async ({page})=>{
+ const errors:string[]=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/#/course/C1');
+ const tabs=page.locator('.filters .tabs button');
+ await expect(tabs).toHaveText(['A0','A1','A2','B1','B2','C1']);
+ await expect(page.getByRole('heading',{name:'C1 · Competenza professionale'})).toBeVisible();
+ await expect(page.locator('.lesson-row')).toHaveCount(35);
+ await page.locator('.lesson-row').first().click();
+ await expect(page.getByRole('heading',{name:'Lettura rapida e mirata di documenti lunghi'})).toBeVisible();
+ await page.locator('.native-outline button',{hasText:'Dialogo 1'}).click();
+ const cell=page.locator('.native-table td[dir="rtl"]').first();
+ await expect(cell).toContainText('الأُسْتَاذُ');
+ await page.locator('.native-outline button',{hasText:'11. Esercizi'}).click();
+ await page.locator('.native-article .exercise-link',{hasText:'Esercizio 3'}).click();
+ await expect(page.locator('.practice-bar select')).toHaveValue('2');
+ await expect(page.locator('.question-prompt')).toHaveAttribute('dir','rtl');
+ await page.locator('.question-card textarea').fill('annuncia');
+ await page.getByRole('button',{name:/Mostra la correzione/}).click();
+ await expect(page.locator('.model-answer')).toContainText('annuncia');
+ expect(errors).toEqual([]);
 });

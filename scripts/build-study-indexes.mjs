@@ -25,7 +25,9 @@ for (const language of ["it", "en"]) {
   const dir = `public/study/${language}`;
   fs.mkdirSync(dir, { recursive: true });
   const translated = read(`data/course${language === "en" ? ".en" : ""}.json`);
-  for (const level of ["A0", "A1", "A2", "B1", "B2"]) {
+  // English is an archive of A0–B2; C1 is published in Italian only.
+  const levels = ["A0", "A1", "A2", "B1", "B2", ...(language === "it" ? ["C1"] : [])];
+  for (const level of levels) {
     const vocab = [],
       search = [],
       seen = new Set();

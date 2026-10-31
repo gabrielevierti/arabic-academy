@@ -8,6 +8,9 @@ import ContextualVocabulary from "./contextual-vocabulary";
 import { evaluateAnswer, withAttempt } from "../lib/grading";
 import { loadCourse } from "../lib/course-loader";
 type Any = Record<string, any>;
+/** True for text written only in Arabic (punctuation and digits allowed). */
+const arabicOnly = (s?: string) =>
+  !!s && /[\u0621-\u064a]/.test(s) && !/[A-Za-z\u00c0-\u024f\u1e00-\u1eff]/.test(s);
 export function Rich({ text = "", onWord }: { text?: string; onWord?:(word:string)=>void }) {
  function content(value:string){return onWord?value.split(/([\p{Script=Arabic}\p{Mark}]+)/gu).map((part,i)=>/\p{Script=Arabic}/u.test(part)?<button key={i} type="button" className="arabic-word" onClick={()=>onWord(part)} aria-label={"Pronuncia di "+part}>{part}</button>:part):value}
 
@@ -33,48 +36,93 @@ export function Rich({ text = "", onWord }: { text?: string; onWord?:(word:strin
     </>
   );
 }
-export function Blocks({ blocks = [] }: { blocks?: any[] }) {
- const [word,setWord]=useState("");
+export function Blocks({
+  blocks = [],
+  onExercise,
+}: {
+  blocks?: any[];
+  onExercise?: (id: string) => void;
+}) {
+  const [word, setWord] = useState("");
   return (
     <div className="native-prose">
-      {word&&<WordPronunciation key={word} word={word} onClose={()=>setWord("")}/>}
+      {word && (
+        <WordPronunciation key={word} word={word} onClose={() => setWord("")} />
+      )}
       {blocks.map((b, i) =>
         b.type === "table" ? (
           <div className="native-table-wrap" key={i}>
-            <table className="native-table">
+            <table
+              className={
+                "native-table" + (b.header === false ? " headless" : "")
+              }
+            >
               <tbody>
                 {b.rows.map((r: any[], j: number) => (
                   <tr key={j}>
-                    {r.map((c, k) =>
-                      j === 0 ? (
-                        <th key={k} scope="col">
+                    {r.map((c, k) => {
+                      // A cell that is one Arabic isolate is laid out right to left.
+                      const rtl = /^\u2067[^\u2066-\u2069]*\u2069$/.test(
+                        String(c).trim(),
+                      );
+                      const dir = rtl ? { dir: "rtl", lang: "ar" } : {};
+                      return j === 0 && b.header !== false ? (
+                        <th key={k} scope="col" {...dir}>
                           <Rich onWord={setWord} text={c} />
                         </th>
                       ) : (
-                        <td key={k}>
+                        <td key={k} {...dir}>
                           <Rich onWord={setWord} text={c} />
                         </td>
-                      ),
-                    )}
+                      );
+                    })}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
+        ) : b.type === "exercise" ? (
+          onExercise ? (
+            <button
+              type="button"
+              key={i}
+              className="exercise-link"
+              onClick={() => onExercise(b.id)}
+            >
+              <span className="eyebrow">{tr("ATTIVITÀ")}</span>
+              <Rich text={b.title} />
+              <b aria-hidden="true">→</b>
+            </button>
+          ) : (
+            <p className="exercise-link static" key={i}>
+              <Rich text={b.title} />
+            </p>
+          )
         ) : b.type === "heading" ? (
-          <h3 key={i}>
-            <Rich onWord={setWord} text={b.text} />
-          </h3>
+          b.level === 4 ? (
+            <h4 key={i}>
+              <Rich onWord={setWord} text={b.text} />
+            </h4>
+          ) : (
+            <h3 key={i}>
+              <Rich onWord={setWord} text={b.text} />
+            </h3>
+          )
         ) : b.type === "list" ? (
           <p className="native-list" key={i}>
             <Rich onWord={setWord} text={b.text} />
           </p>
         ) : b.type === "arabic" ? (
-          <p className="arabic-paragraph" key={i} dir="rtl" lang="ar">
+          <p
+            className={"arabic-paragraph" + (b.emphasis ? " emphasis" : "")}
+            key={i}
+            dir="rtl"
+            lang="ar"
+          >
             <Rich onWord={setWord} text={b.text} />
           </p>
         ) : (
-          <p key={i}>
+          <p key={i} className={b.small ? "native-note" : undefined}>
             <Rich onWord={setWord} text={b.text} />
           </p>
         ),
@@ -303,6 +351,15 @@ export default function NativeCourse({
     setShowFull(false);
     setReviewOnly(false);
   }
+  function openExercise(id: string) {
+    const i = groups.findIndex((g: any) => g.id === id);
+    if (i < 0) return;
+    const read = [...new Set([...(state.read || []), chapter])];
+    recordProgress({ step: chapter, read });
+    selectGroup(i);
+    setTab("practice");
+    window.scrollTo(0, 0);
+  }
   function appendLetter(a: string) {
     const el = box.current;
     const text = answer.text || "";
@@ -425,7 +482,7 @@ export default function NativeCourse({
             <h2>
               <Rich text={currentChapter?.title} />
             </h2>
-            <Blocks blocks={currentChapter?.blocks} />
+            <Blocks blocks={currentChapter?.blocks} onExercise={openExercise} />
             <ContextualVocabulary level={lesson.level} put={put} data={data} />
             <SpeakingPractice />
             <div className="native-article-actions">
@@ -612,13 +669,20 @@ export default function NativeCourse({
                 {exercise.blocks?.length > 0 && (
                   <Blocks blocks={exercise.blocks} />
                 )}
-                <div className="question-prompt">
-                  <Rich
-                    text={
-                      question.prompt || exercise.instruction || exercise.title
-                    }
-                  />
-                </div>
+                {(question.prompt || !exercise.blocks?.length) && (
+                  <div
+                    className="question-prompt"
+                    dir={arabicOnly(question.prompt) ? "rtl" : undefined}
+                  >
+                    <Rich
+                      text={
+                        question.prompt ||
+                        exercise.instruction ||
+                        exercise.title
+                      }
+                    />
+                  </div>
+                )}
                 {question.prompt && /[\u0600-\u06ff]/.test(question.prompt) && (
                   <button
                     className="listen-button"
@@ -800,7 +864,10 @@ export default function NativeCourse({
                             ? tr("RISPOSTA DI RIFERIMENTO")
                             : tr("SOLUZIONE ATTESA")}
                         </span>
-                        <div className="model-answer">
+                        <div
+                          className="model-answer"
+                          dir={arabicOnly(question.model) ? "rtl" : undefined}
+                        >
                           <Rich
                             text={
                               question.mode === "choice"
@@ -812,6 +879,15 @@ export default function NativeCourse({
                           />
                         </div>
                       </>
+                    ) : exercise.solutionBlocks?.length ? (
+                      <>
+                        <span className="feedback-label">
+                          {tr("SOLUZIONE DELL’ATTIVITÀ")}
+                        </span>
+                        <div className="activity-solution">
+                          <Blocks blocks={exercise.solutionBlocks} />
+                        </div>
+                      </>
                     ) : (
                       <p>
                         {tr(
@@ -819,8 +895,28 @@ export default function NativeCourse({
                         )}
                       </p>
                     )}
-                    {question.explanation &&
-                      question.explanation !== question.model && (
+                    {question.model && exercise.solutionBlocks?.length > 0 ? (
+                      <>
+                        <button
+                          className="context-link"
+                          onClick={() => setShowFull(!showFull)}
+                        >
+                          {showFull
+                            ? tr("Chiudi il commento")
+                            : tr(
+                                "Commento completo dell’attività (contiene altre soluzioni)",
+                              )}
+                        </button>
+                        {showFull && (
+                          <div className="activity-solution">
+                            <Blocks blocks={exercise.solutionBlocks} />
+                          </div>
+                        )}
+                      </>
+                    ) : (
+                      question.explanation &&
+                      question.explanation !== question.model &&
+                      !exercise.solutionBlocks?.length && (
                         <>
                           <button
                             className="context-link"
@@ -842,8 +938,9 @@ export default function NativeCourse({
                             </div>
                           )}
                         </>
-                      )}
-                    {!question.model && (
+                      )
+                    )}
+                    {!question.model && !exercise.solutionBlocks?.length && (
                       <details>
                         <summary>{tr("Commento completo dell’unità")}</summary>
                         <Blocks blocks={native.solutionBlocks} />

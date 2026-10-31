@@ -7,13 +7,13 @@
     "name": "axe"
   },
   "testEnvironment": {
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.0 Safari/537.36",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
     "windowWidth": 1280,
     "windowHeight": 720,
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-10-28T09:02:52.105Z",
+  "timestamp": "2026-10-31T14:52:25.904Z",
   "url": "http://127.0.0.1:4174/#/flashcards",
   "toolOptions": {
     "runOnly": {
@@ -953,7 +953,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            "aside > nav[aria-label=\"Navigazione principale\"]"
+            "aside > nav"
           ]
         },
         {
@@ -994,46 +994,6 @@
           "html": "<button class=\"nav active\" aria-current=\"page\">Flashcard</button>",
           "target": [
             ".active"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "aria-allowed-attr",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "ARIA attributes are used correctly for the defined role"
-            },
-            {
-              "id": "aria-allowed-attr-elm",
-              "data": null,
-              "relatedNodes": [],
-              "message": "ARIA attributes are allowed for this element",
-              "impact": "critical"
-            },
-            {
-              "id": "aria-no-deprecated-attr",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "No deprecated ARIA attributes are used"
-            }
-          ],
-          "none": [
-            {
-              "id": "aria-unsupported-attr",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "ARIA attribute is supported"
-            }
-          ],
-          "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
-          "target": [
-            ".course-navigation"
           ]
         }
       ]
@@ -1069,7 +1029,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            "aside > nav[aria-label=\"Navigazione principale\"]"
+            "aside > nav"
           ]
         },
         {
@@ -1088,24 +1048,6 @@
           "html": "<button class=\"nav active\" aria-current=\"page\">Flashcard</button>",
           "target": [
             ".active"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "aria-conditional-attr",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "ARIA attribute is allowed"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
-          "target": [
-            ".course-navigation"
           ]
         }
       ]
@@ -1295,7 +1237,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            "aside > nav[aria-label=\"Navigazione principale\"]"
+            "aside > nav"
           ]
         },
         {
@@ -1314,24 +1256,6 @@
           "html": "<button class=\"nav active\" aria-current=\"page\">Flashcard</button>",
           "target": [
             ".active"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "aria-prohibited-attr",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "ARIA attribute is allowed"
-            }
-          ],
-          "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
-          "target": [
-            ".course-navigation"
           ]
         }
       ]
@@ -1381,7 +1305,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            "aside > nav[aria-label=\"Navigazione principale\"]"
+            "aside > nav"
           ]
         },
         {
@@ -1414,38 +1338,6 @@
           "html": "<button class=\"nav active\" aria-current=\"page\">Flashcard</button>",
           "target": [
             ".active"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "aria-valid-attr-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "ARIA attribute values are valid"
-            },
-            {
-              "id": "aria-errormessage",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
-            },
-            {
-              "id": "aria-level",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-level values are valid"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
-          "target": [
-            ".course-navigation"
           ]
         }
       ]
@@ -1481,7 +1373,7 @@
           "impact": null,
           "html": "<nav class=\"\" aria-label=\"Navigazione principale\">",
           "target": [
-            "aside > nav[aria-label=\"Navigazione principale\"]"
+            "aside > nav"
           ]
         },
         {
@@ -1500,24 +1392,6 @@
           "html": "<button class=\"nav active\" aria-current=\"page\">Flashcard</button>",
           "target": [
             ".active"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "aria-valid-attr",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "ARIA attribute name is valid"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<nav class=\"course-navigation\" aria-label=\"Sezioni del corso\"><button class=\"\">Il tuo percorso</button><button class=\"\">Esercizi</button><button class=\"\">Ripasso e correzioni</button></nav>",
-          "target": [
-            ".course-navigation"
           ]
         }
       ]
@@ -1564,7 +1438,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -1607,7 +1481,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Corso</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(1)"
+            "nav > .nav:nth-child(1)"
           ]
         },
         {
@@ -1625,7 +1499,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -1643,7 +1517,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -1731,24 +1605,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"nav\">",
           "target": [
             ".sidebar-bottom > .nav"
@@ -1767,81 +1623,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "button-has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has inner text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"primary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"></path></svg>Nuova flashcard</button>",
           "target": [
-            ".heading:nth-child(3) > .primary"
+            ".heading:nth-child(2) > .primary"
           ]
         },
         {
@@ -1906,7 +1690,7 @@
                 {
                   "html": "<h2>Le tue flashcard</h2>",
                   "target": [
-                    ".heading:nth-child(3) > div > h2"
+                    ".heading:nth-child(2) > div > h2"
                   ]
                 },
                 {
@@ -1937,7 +1721,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -1968,24 +1752,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#e2c894",
-                "bgColor": "#173f3d",
-                "contrastRatio": 7.12,
-                "fontSize": "23.3pt (31px)",
+                "fgColor": "#9adbd5",
+                "bgColor": "#192b30",
+                "contrastRatio": 9.42,
+                "fontSize": "22.5pt (30px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.12"
+              "message": "Element has sufficient color contrast of 9.42"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"brand-mark\">ع</span>",
+          "html": "<span>ع</span>",
           "target": [
-            ".brand-mark"
+            ".brand-mark > span"
           ]
         },
         {
@@ -1993,16 +1777,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#ffffff",
-                "bgColor": "#173b39",
-                "contrastRatio": 12.2,
+                "fgColor": "#edf5f5",
+                "bgColor": "#142b30",
+                "contrastRatio": 13.38,
                 "fontSize": "18.0pt (24px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 12.2"
+              "message": "Element has sufficient color contrast of 13.38"
             }
           ],
           "all": [],
@@ -2010,7 +1794,7 @@
           "impact": null,
           "html": "<span>Arabic<span class=\"brand-sub\">ACADEMY</span></span>",
           "target": [
-            "span:nth-child(2)"
+            ".brand > span"
           ]
         },
         {
@@ -2018,16 +1802,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#b8cdc7",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.31,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "6.8pt (9px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.31"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2043,16 +1827,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#b5c8c0",
-                "bgColor": "#173b39",
-                "contrastRatio": 6.96,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "6.8pt (9px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.96"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2068,16 +1852,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2085,7 +1869,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Corso</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(1)"
+            "nav > .nav:nth-child(1)"
           ]
         },
         {
@@ -2093,16 +1877,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2110,7 +1894,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -2118,16 +1902,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2135,7 +1919,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -2143,16 +1927,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d5cc",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.96,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.96"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2168,16 +1952,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2193,16 +1977,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2218,16 +2002,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#f4f7f3",
-                "bgColor": "#31564e",
-                "contrastRatio": 7.56,
+                "fgColor": "#edf5f5",
+                "bgColor": "#214348",
+                "contrastRatio": 9.67,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.56"
+              "message": "Element has sufficient color contrast of 9.67"
             }
           ],
           "all": [],
@@ -2243,16 +2027,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2268,41 +2052,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
+                "fgColor": "#b3cbcd",
+                "bgColor": "#142b30",
+                "contrastRatio": 8.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#c3d3d1",
-                "bgColor": "#173b39",
-                "contrastRatio": 7.87,
-                "fontSize": "9.8pt (13px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.87"
+              "message": "Element has sufficient color contrast of 8.7"
             }
           ],
           "all": [],
@@ -2318,166 +2077,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.3,
-                "fontSize": "9.0pt (12px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.3"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span>La tua academy <span class=\"crumb\">/</span> <b>Flashcard</b></span>",
-          "target": [
-            "header > span"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#415254",
-                "bgColor": "#ffffff",
-                "contrastRatio": 8.2,
-                "fontSize": "9.0pt (12px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 8.2"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<b>Flashcard</b>",
-          "target": [
-            "b"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.3,
-                "fontSize": "8.3pt (11px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.3"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -2485,7 +2094,7 @@
           "impact": null,
           "html": "<div class=\"eyebrow\">IL SAPERE SI CONSOLIDA</div>",
           "target": [
-            ".heading:nth-child(2) > div > .eyebrow"
+            ".heading:nth-child(1) > div > .eyebrow"
           ]
         },
         {
@@ -2493,16 +2102,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#203c3b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 11.02,
+                "fgColor": "#20373a",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 11.65,
                 "fontSize": "28.5pt (38px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "3:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.02"
+              "message": "Element has sufficient color contrast of 11.65"
             }
           ],
           "all": [],
@@ -2518,22 +2127,97 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#58685f",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.48,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.48"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
           "html": "<p>Riprendi gli errori e ritrova le parole del tuo mazzo.</p>",
+          "target": [
+            ".heading:nth-child(1) > div > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"eyebrow\">IL TUO MAZZO PERSONALE</div>",
+          "target": [
+            ".heading:nth-child(2) > div > .eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20373a",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 11.65,
+                "fontSize": "16.5pt (22px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2>Le tue flashcard</h2>",
+          "target": [
+            ".heading:nth-child(2) > div > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>0  flashcard da ripassare oggi · 0  nel tuo mazzo</p>",
           "target": [
             ".heading:nth-child(2) > div > p"
           ]
@@ -2543,91 +2227,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#496052",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 6.34,
-                "fontSize": "7.5pt (10px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.34"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"eyebrow\">IL TUO MAZZO PERSONALE</div>",
-          "target": [
-            ".heading:nth-child(3) > div > .eyebrow"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#203c3b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 11.02,
-                "fontSize": "16.5pt (22px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.02"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<h2>Le tue flashcard</h2>",
-          "target": [
-            ".heading:nth-child(3) > div > h2"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#58685f",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.48,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.48"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<p>0  flashcard da ripassare oggi · 0  nel tuo mazzo</p>",
-          "target": [
-            ".heading:nth-child(3) > div > p"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
                 "fgColor": "#ffffff",
-                "bgColor": "#235e55",
-                "contrastRatio": 7.49,
+                "bgColor": "#226f70",
+                "contrastRatio": 5.87,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.49"
+              "message": "Element has sufficient color contrast of 5.87"
             }
           ],
           "all": [],
@@ -2635,7 +2244,7 @@
           "impact": null,
           "html": "<button class=\"primary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"></path></svg>Nuova flashcard</button>",
           "target": [
-            ".heading:nth-child(3) > .primary"
+            ".heading:nth-child(2) > .primary"
           ]
         },
         {
@@ -2643,16 +2252,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#203c3b",
+                "fgColor": "#20373a",
                 "bgColor": "#ffffff",
-                "contrastRatio": 11.85,
+                "contrastRatio": 12.58,
                 "fontSize": "16.5pt (22px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 11.85"
+              "message": "Element has sufficient color contrast of 12.58"
             }
           ],
           "all": [],
@@ -2668,16 +2277,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#58685f",
+                "fgColor": "#516b6e",
                 "bgColor": "#ffffff",
-                "contrastRatio": 5.89,
+                "contrastRatio": 5.7,
                 "fontSize": "10.5pt (14px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.89"
+              "message": "Element has sufficient color contrast of 5.7"
             }
           ],
           "all": [],
@@ -2694,15 +2303,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#ffffff",
-                "bgColor": "#235e55",
-                "contrastRatio": 7.49,
+                "bgColor": "#226f70",
+                "contrastRatio": 5.87,
                 "fontSize": "9.0pt (12px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 7.49"
+              "message": "Element has sufficient color contrast of 5.87"
             }
           ],
           "all": [],
@@ -2718,22 +2327,22 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.85,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "6.0pt (8px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.85"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<footer>ARABIC ACADEMY <span>Il tuo percorso. Una parola alla volta.</span></footer>",
+          "html": "<footer>",
           "target": [
             "footer"
           ]
@@ -2743,16 +2352,16 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#52645b",
-                "bgColor": "#f6f7f3",
-                "contrastRatio": 5.85,
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
                 "fontSize": "7.5pt (10px)",
                 "fontWeight": "normal",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.85"
+              "message": "Element has sufficient color contrast of 5.29"
             }
           ],
           "all": [],
@@ -2761,6 +2370,81 @@
           "html": "<span>Il tuo percorso. Una parola alla volta.</span>",
           "target": [
             "footer > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer-links\">© 2026 Gabriele Vierti · <a href=\"https://github.com/gabrielevierti\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub di Gabriele Vierti</a> · <a href=\"https://github.com/gabrielevierti/arabic-academy\" target=\"_blank\" rel=\"noopener noreferrer\">Repository del sito</a></div>",
+          "target": [
+            ".footer-links"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub di Gabriele Vierti</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#516b6e",
+                "bgColor": "#f3f7f7",
+                "contrastRatio": 5.29,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti/arabic-academy\" target=\"_blank\" rel=\"noopener noreferrer\">Repository del sito</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
           ]
         }
       ]
@@ -2797,7 +2481,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -2836,7 +2520,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -2875,7 +2559,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"it\" data-motion=\"system\" style=\"--arabic-scale: 1;\">",
+          "html": "<html lang=\"it\" data-theme=\"light\" data-width=\"comfortable\" data-motion=\"system\" style=\"--arabic-scale: 1; --reading-size: 16px; --reading-leading: 1.8;\">",
           "target": [
             "html"
           ]
@@ -2926,7 +2610,7 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"brand\" href=\"#\"><span class=\"brand-mark\">ع</span><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
+          "html": "<a class=\"brand\" href=\"#\"><div class=\"brand-mark\"><span>ع</span></div><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
           "target": [
             ".brand"
           ]
@@ -2955,6 +2639,58 @@
           "html": "<a href=\"#main-content\" class=\"skip-link\">Vai al contenuto</a>",
           "target": [
             ".skip-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub di Gabriele Vierti</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://github.com/gabrielevierti/arabic-academy\" target=\"_blank\" rel=\"noopener noreferrer\">Repository del sito</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
           ]
         }
       ]
@@ -3029,7 +2765,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Corso</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(1)"
+            "nav > .nav:nth-child(1)"
           ]
         },
         {
@@ -3047,7 +2783,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -3065,7 +2801,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -3153,24 +2889,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"nav\">",
           "target": [
             ".sidebar-bottom > .nav"
@@ -3189,81 +2907,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"primary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"></path></svg>Nuova flashcard</button>",
           "target": [
-            ".heading:nth-child(3) > .primary"
+            ".heading:nth-child(2) > .primary"
           ]
         },
         {
@@ -3327,7 +2973,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"brand\" href=\"#\"><span class=\"brand-mark\">ع</span><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
+          "html": "<a class=\"brand\" href=\"#\"><div class=\"brand-mark\"><span>ع</span></div><span>Arabic<span class=\"brand-sub\">ACADEMY</span></span></a>",
           "target": [
             ".brand"
           ]
@@ -3361,7 +3007,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Corso</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(1)"
+            "nav > .nav:nth-child(1)"
           ]
         },
         {
@@ -3393,7 +3039,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Progressi</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(2)"
+            "nav > .nav:nth-child(2)"
           ]
         },
         {
@@ -3425,7 +3071,7 @@
           "impact": null,
           "html": "<button class=\"nav \">Biblioteca</button>",
           "target": [
-            "nav[aria-label=\"Navigazione principale\"] > .nav:nth-child(3)"
+            "nav > .nav:nth-child(3)"
           ]
         },
         {
@@ -3583,38 +3229,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"nav \">Microlezioni</button>",
-          "target": [
-            ".nav:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 192,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (192px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button class=\"nav\">",
           "target": [
             ".sidebar-bottom > .nav"
@@ -3626,12 +3240,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 145.4,
+                "width": 131.4,
                 "height": 53
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (145.4px by 53px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (131.4px by 53px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -3658,140 +3272,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 145.7,
+                "width": 155.4,
                 "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (145.7px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"sync \"><span class=\"dot\"></span>Salvato sul dispositivo</button>",
-          "target": [
-            ".sync"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 132.7,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (132.7px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Il tuo percorso</button>",
-          "target": [
-            ".course-navigation > button:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 85,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (85px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Esercizi</button>",
-          "target": [
-            ".course-navigation > button:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 172.2,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (172.2px by 44px, should be at least 24px by 24px)"
-            },
-            {
-              "id": "target-offset",
-              "data": {
-                "closestOffset": 24,
-                "minOffset": 24
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Target has sufficient space from its closest neighbors. Safe clickable space has a diameter of 24px which is at least 24px."
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button class=\"\">Ripasso e correzioni</button>",
-          "target": [
-            ".course-navigation > button:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "target-size",
-              "data": {
-                "minSize": 24,
-                "width": 171.3,
-                "height": 44
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Control has sufficient size (171.3px by 44px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (155.4px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",
@@ -3809,7 +3295,7 @@
           "impact": null,
           "html": "<button class=\"primary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"></path></svg>Nuova flashcard</button>",
           "target": [
-            ".heading:nth-child(3) > .primary"
+            ".heading:nth-child(2) > .primary"
           ]
         },
         {
@@ -3818,12 +3304,12 @@
               "id": "target-size",
               "data": {
                 "minSize": 24,
-                "width": 188.3,
+                "width": 165.3,
                 "height": 44
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Control has sufficient size (188.3px by 44px, should be at least 24px by 24px)"
+              "message": "Control has sufficient size (165.3px by 44px, should be at least 24px by 24px)"
             },
             {
               "id": "target-offset",

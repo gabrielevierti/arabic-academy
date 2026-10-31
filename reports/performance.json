@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28T10:26:24.939Z",
+  "date": "2026-10-31T14:51:37.401Z",
   "measurement": "Production artifact sizes, not field performance or Lighthouse scores",
   "baseline": {
     "initialJsBytes": 1125620,
@@ -7,66 +7,66 @@
   },
   "current": {
     "main": {
-      "name": "index-Dg5zH6P7.js",
-      "bytes": 253871,
-      "gzip": 78737
+      "name": "index-yoFKaReS.js",
+      "bytes": 256633,
+      "gzip": 79275
     },
     "italianIndex": {
-      "name": "course-1itrWnmV.js",
-      "bytes": 417185,
-      "gzip": 62344
+      "name": "course-Dm0qQQiw.js",
+      "bytes": 51546,
+      "gzip": 9486
     },
-    "initialItalianJsBytes": 671056,
-    "initialItalianJsGzipBytes": 141081
+    "initialItalianJsBytes": 308179,
+    "initialItalianJsGzipBytes": 88761
   },
   "assets": [
     {
-      "name": "alphabet-BYJgF_qE.js",
-      "bytes": 16223,
-      "gzip": 6475
+      "name": "alphabet-CLzHcivX.js",
+      "bytes": 14566,
+      "gzip": 5626
     },
     {
-      "name": "book-library-CZX1J0MS.js",
-      "bytes": 6844,
-      "gzip": 2472
+      "name": "alphabet-data-BkHc59ko.js",
+      "bytes": 1724,
+      "gzip": 850
     },
     {
-      "name": "course-1itrWnmV.js",
-      "bytes": 417185,
-      "gzip": 62344
+      "name": "book-library-B5uFMB38.js",
+      "bytes": 6854,
+      "gzip": 2494
     },
     {
-      "name": "guided-session-BfOtwbBM.js",
-      "bytes": 8277,
-      "gzip": 3431
+      "name": "course-Dm0qQQiw.js",
+      "bytes": 51546,
+      "gzip": 9486
     },
     {
-      "name": "index-D2DJ1y03.css",
-      "bytes": 52323,
-      "gzip": 12172
+      "name": "guided-session--8DOlMe-.js",
+      "bytes": 8300,
+      "gzip": 3448
     },
     {
-      "name": "index-Dg5zH6P7.js",
-      "bytes": 253871,
-      "gzip": 78737
+      "name": "index-CWOks3Ru.css",
+      "bytes": 62758,
+      "gzip": 13152
     },
     {
-      "name": "micro-lessons-BSO5ANmw.js",
-      "bytes": 4101,
-      "gzip": 1837
+      "name": "index-yoFKaReS.js",
+      "bytes": 256633,
+      "gzip": 79275
     },
     {
-      "name": "native-course-CwEhFmUo.js",
-      "bytes": 22639,
-      "gzip": 7846
+      "name": "native-course-DadYLe-y.js",
+      "bytes": 28933,
+      "gzip": 9644
     },
     {
-      "name": "progress-DBw-UJzg.js",
-      "bytes": 9143,
-      "gzip": 3570
+      "name": "progress-scRZ-5xi.js",
+      "bytes": 9348,
+      "gzip": 3633
     },
     {
-      "name": "vocabulary-jwIziE-b.js",
+      "name": "vocabulary-K2vE45T0.js",
       "bytes": 313,
       "gzip": 251
     }

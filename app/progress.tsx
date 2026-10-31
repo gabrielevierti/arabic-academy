@@ -1,7 +1,8 @@
 import { useLanguage } from "../lib/i18n";
 import { levelMetrics, localDay, streak, errorQueue } from "../lib/learning";
 import metadata from "../data/study-metadata.json";
-const levels = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
+import { LEVELS } from "../lib/levels";
+const levels: readonly string[] = LEVELS;
 export default function Progress({
   data,
   lessons,
@@ -142,8 +143,8 @@ export default function Progress({
               ? `${m.done}/${m.total} ` +
                 t("lezioni principali completate", "core lessons completed")
               : t(
-                  "C1 e C2 arriveranno con nuovi contenuti.",
-                  "C1 and C2 will arrive with new content.",
+                  "Hai concluso tutte le lezioni principali, dall’alfabeto al C1. Ripassa, riprendi le tracce di varietà e continua con i testi autentici.",
+                  "You have completed every core lesson, from the alphabet to C1. Review, return to the variety tracks and keep reading authentic texts.",
                 )}
           </p>
           {m && (
@@ -161,13 +162,13 @@ export default function Progress({
               {t("di studio rimanenti, stimate", "estimated study remaining")}
             </span>
             <small>
-              {active < 4
+              {active < levels.length - 1
                 ? t("Prima di proseguire con", "Before moving on to") +
                   " " +
                   levels[active + 1]
                 : t(
-                    "Per concludere B2 · C1 in arrivo",
-                    "To finish B2 · C1 coming soon",
+                    "Per concludere il C1, l’ultimo livello del percorso",
+                    "To finish C1, the last level of the course",
                   )}
             </small>
           </div>

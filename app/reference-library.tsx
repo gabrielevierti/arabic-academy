@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLanguage } from "../lib/i18n";
+import { LEVELS } from "../lib/levels";
 import {
   loadStudyIndex,
   lookupKey,
@@ -56,7 +57,7 @@ export default function ReferenceLibrary({
         <label>
           {t("Livello", "Level")}
           <select value={level} onChange={(e) => setLevel(e.target.value)}>
-            {["A0", "A1", "A2", "B1", "B2"].map((l) => (
+            {LEVELS.map((l) => (
               <option key={l}>{l}</option>
             ))}
           </select>

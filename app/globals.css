@@ -3051,3 +3051,67 @@ html[data-theme="dark"] .book-cover:not(.cover1):not(.cover2):not(.cover3):not(.
 .word-dialog{width:min(560px,calc(100% - 28px));max-height:85dvh;padding:0;border:1px solid #80978d;border-radius:18px;color:#203c32;background:#fff;box-shadow:0 20px 80px #0005}.word-dialog::backdrop{background:#071a18a8}.word-dialog-content{padding:26px;overflow-wrap:break-word}.word-close{display:block;margin-left:auto;margin-bottom:14px}.word-dialog h2{font-size:42px;line-height:1.8;margin:12px 0}.word-dialog h3[lang=ar]{font-size:28px}.word-definition{border-block-start:1px solid #80978d;padding-block:14px}.word-dialog summary{cursor:pointer;min-height:44px}.word-dialog small{display:block}.word-dialog .row{flex-wrap:wrap;gap:10px}
 html[data-theme=dark] .word-dialog{background:#1c2b30;color:#e6eeea}html[data-theme=dark] .arabic-word{ text-decoration-color:#a5dac6}html[data-theme=dark] .arabic-word:hover,html[data-theme=dark] .arabic-word:focus-visible{background:#304b4a;outline-color:#a5dac6}
 @media(max-width:720px){.word-dialog{width:calc(100% - 16px);max-height:88dvh;border-radius:16px}.word-dialog-content{padding:20px}.word-dialog button{min-height:44px}.word-dialog .row>button{flex:1}.arabic-word{padding-inline:4px}}
+
+/* ============================================================
+   C1 volume: richer native blocks
+   ============================================================ */
+.volume-color-5 { background: #4a3355; }
+.native-prose h4 {
+  font-size: 15px;
+  margin: 24px 0 10px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.native-prose p.native-note {
+  font-size: 13px;
+  line-height: 1.85;
+  border-left: 2px solid var(--line);
+  padding-left: 12px;
+}
+.native-prose .arabic-paragraph.emphasis { font-weight: 700; }
+.native-table.headless tr:nth-child(2n) { background: transparent; }
+.native-table.headless tr:nth-child(2n + 1) { background: var(--surface-soft); }
+.native-table.headless td:first-child:has(> .arabic-inline:only-child) { min-width: 0; }
+.exercise-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  margin: 12px 0;
+  padding: 14px 18px;
+  text-align: left;
+  font: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.exercise-link .eyebrow { flex: none; }
+.exercise-link b { margin-left: auto; color: var(--accent); }
+.exercise-link:hover { background: var(--surface-soft); }
+.exercise-link:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.native-prose p.exercise-link.static { cursor: default; color: var(--muted); }
+.activity-solution {
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 6px;
+}
+.activity-solution .native-prose p { font-size: 14px; }
+.activity-solution .native-prose .arabic-paragraph { font-size: 20px; padding: 14px 18px; margin: 14px 0; }
+.native-table td[dir="rtl"],
+.native-table th[dir="rtl"] { text-align: right; }
+/* Consecutive Arabic paragraphs read as one continuous text. */
+.native-prose .arabic-paragraph + .arabic-paragraph {
+  margin-top: -22px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 4px;
+}
+.native-prose .arabic-paragraph:has(+ .arabic-paragraph) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-bottom: 8px;
+}
