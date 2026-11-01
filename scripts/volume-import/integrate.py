@@ -1,4 +1,4 @@
-"""Merge an assembled volume (out/) into the Arabic Academy repository."""
+"""Merge an assembled volume (out/) into the Arabo da Zero repository."""
 import json, shutil, sys
 from pathlib import Path
 

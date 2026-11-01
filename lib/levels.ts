@@ -1,4 +1,4 @@
-/** Course levels published in Arabic Academy, in study order. */
+/** Course levels published in Arabo da Zero, in study order. */
 export const LEVELS = ["A0", "A1", "A2", "B1", "B2", "C1"] as const;
 export type Level = (typeof LEVELS)[number];
 export const LEVEL_NAMES: Record<Level, string> = {

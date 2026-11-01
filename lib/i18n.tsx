@@ -4,4 +4,4 @@ export type Language = 'it' | 'en';
 export function useLanguage():Language{return 'it'}
 export function tr(text:string):string{return text}
 document.documentElement.lang='it';
-document.title='Arabic Academy · Arabo per la vita e il lavoro';
+document.title='Arabo da Zero · Arabo per la vita e il lavoro';

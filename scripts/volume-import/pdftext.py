@@ -1,4 +1,4 @@
-"""Low-level text recovery for the Arabic Academy volume PDFs (WeasyPrint output).
+"""Low-level text recovery for the Arabo da Zero volume PDFs (WeasyPrint output).
 
 The PDFs embed subset fonts whose ToUnicode maps are unreliable for Arabic: Noto
 Naskh Arabic composes letters from a dotless body plus separate dot glyphs, and

@@ -1,6 +1,6 @@
 # Importare un volume PDF
 
-Questi script trasformano un volume di Arabic Academy (PDF generato con WeasyPrint)
+Questi script trasformano un volume di Arabo da Zerp (PDF generato con WeasyPrint)
 nel formato interattivo del sito: lezioni con passaggi, esercizi con soluzioni,
 materiali della biblioteca e lessico. Il Volume 6 (C1) è stato importato così.
 

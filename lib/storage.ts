@@ -41,7 +41,7 @@ function open(): Promise<IDBDatabase> {
       blocked = true;
       reject(
         new Error(
-          "Close older Arabic Academy tabs, then retry the storage upgrade.",
+          "Close older Arabo da Zero tabs, then retry the storage upgrade.",
         ),
       );
     };

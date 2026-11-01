@@ -1,4 +1,4 @@
-name: Publish Arabic Academy
+name: Publish Arabo da Zero
 on:
   push:
     branches: [main]

@@ -110,7 +110,7 @@ export default function App() {
     </CourseIndex>
   );
 }
-function SectionLoading(){return <section className="panel section-loading" role="status" aria-live="polite"><span className="eyebrow">ARABIC ACADEMY</span><h2>Prepariamo questa sezione…</h2><p>Al primo accesso può servire qualche istante.</p><div className="loading-placeholder" aria-hidden="true"/><div className="loading-placeholder short" aria-hidden="true"/></section>}
+function SectionLoading(){return <section className="panel section-loading" role="status" aria-live="polite"><span className="eyebrow">ARABO DA ZERO</span><h2>Prepariamo questa sezione…</h2><p>Al primo accesso può servire qualche istante.</p><div className="loading-placeholder" aria-hidden="true"/><div className="loading-placeholder short" aria-hidden="true"/></section>}
 function Academy({ course }: { course: typeof import("../data/course.json") }) {
   const language = useLanguage();
 
@@ -857,7 +857,7 @@ function Academy({ course }: { course: typeof import("../data/course.json") }) {
           </Suspense>
         </div>
         <footer>
-          ARABIC ACADEMY{" "}
+          ARABO DA ZERO{" "}
           <span>{tr("Il tuo percorso. Una parola alla volta.")}</span>
           <div className="footer-links">© {new Date().getFullYear()} Gabriele Vierti · <a href="https://github.com/gabrielevierti" target="_blank" rel="noopener noreferrer">GitHub di Gabriele Vierti</a> · <a href="https://github.com/gabrielevierti/arabic-academy" target="_blank" rel="noopener noreferrer">Repository del sito</a></div>
         </footer>

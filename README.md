@@ -2,7 +2,7 @@
 
 Un percorso di apprendimento gratuito e aperto per l'arabo, con lezioni, esercizi e monitoraggio dei progressi organizzati in un unico posto.
 
-Arabic Academy è nata da un'esigenza personale: voglio imparare l'arabo senza pagare un corso né perdermi tra decine di risorse separate.
+Arabo da Zero è nata da un'esigenza personale: voglio imparare l'arabo senza pagare un corso né perdermi tra decine di risorse separate.
 
 Il progetto è pensato per chiunque cerchi un percorso di apprendimento strutturato e voglia usare l'arabo nella vita reale, anche in contesti professionali.
 
@@ -14,7 +14,7 @@ Non riuscivo a trovare una risorsa gratuita che mettesse tutto insieme come mi s
 
 Volevo anche un approccio più vicino all'uso pratico e professionale della lingua. Le frasi semplici aiutano a imparare le basi, ma il mio obiettivo non è fermarmi a "il cavallo beve il latte in cucina": voglio capire le informazioni, leggere testi e comunicare in situazioni reali.
 
-Così ho iniziato a costruire lo strumento che avrei voluto trovare. Arabic Academy è il risultato di quel lavoro, ed è ancora in evoluzione.
+Così ho iniziato a costruire lo strumento che avrei voluto trovare. Arabo da Zero è il risultato di quel lavoro, ed è ancora in evoluzione.
 
 ## Cosa offre
 
@@ -67,7 +67,7 @@ Ti preghiamo di non includere backup, note personali o altri dati privati nelle 
 Voglio che i miei progetti siano disponibili per chiunque ne abbia bisogno.
 Se costruisco qualcosa per risolvere un mio problema e questo può aiutare anche altre persone, condividerlo ha senso per me.
 
-Arabic Academy segue questa idea: ridurre le barriere all'apprendimento e permettere ad altri di usare, migliorare e sviluppare lo strumento. Non devi pagare per accedere al corso e non devi contribuire con codice per usarlo.
+Arabo da Zero segue questa idea: ridurre le barriere all'apprendimento e permettere ad altri di usare, migliorare e sviluppare lo strumento. Non devi pagare per accedere al corso e non devi contribuire con codice per usarlo.
 
 ## Licenza
 

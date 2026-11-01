@@ -2407,7 +2407,7 @@
               "data": null,
               "relatedNodes": [
                 {
-                  "html": "<h1>I volumi di Arabic Academy.</h1>",
+                  "html": "<h1>I volumi di Arabo da Zero.</h1>",
                   "target": [
                     "h1"
                   ]
@@ -2866,7 +2866,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h1>I volumi di Arabic Academy.</h1>",
+          "html": "<h1>I volumi di Arabo da Zero.</h1>",
           "target": [
             "h1"
           ]
@@ -2916,7 +2916,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>ARABIC ACADEMY</span>",
+          "html": "<span>ARABO DA ZERO</span>",
           "target": [
             ".volume-color-0 > span:nth-child(1)"
           ]
@@ -3066,7 +3066,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>ARABIC ACADEMY</span>",
+          "html": "<span>ARABO DA ZERO</span>",
           "target": [
             ".volume-color-1 > span:nth-child(1)"
           ]
@@ -3216,7 +3216,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>ARABIC ACADEMY</span>",
+          "html": "<span>ARABO DA ZERO</span>",
           "target": [
             ".volume-color-2 > span:nth-child(1)"
           ]
@@ -3366,7 +3366,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>ARABIC ACADEMY</span>",
+          "html": "<span>ARABO DA ZERO</span>",
           "target": [
             ".volume-color-3 > span:nth-child(1)"
           ]
@@ -3516,7 +3516,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>ARABIC ACADEMY</span>",
+          "html": "<span>ARABO DA ZERO</span>",
           "target": [
             ".volume-color-4 > span:nth-child(1)"
           ]
@@ -3666,7 +3666,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>ARABIC ACADEMY</span>",
+          "html": "<span>ARABO DA ZERO</span>",
           "target": [
             ".volume-color-5 > span:nth-child(1)"
           ]
