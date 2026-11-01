@@ -1,5 +1,4 @@
-
-# Arabic Academy
+# Arabo da Zero
 
 Un percorso di apprendimento gratuito e aperto per l'arabo, con lezioni, esercizi e monitoraggio dei progressi organizzati in un unico posto.
 
